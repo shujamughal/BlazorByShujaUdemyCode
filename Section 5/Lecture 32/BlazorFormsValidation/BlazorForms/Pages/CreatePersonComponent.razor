@@ -1,0 +1,49 @@
+﻿@page "/cp"
+<h3>CreatePersonComponent</h3>
+<p>@person.Name</p>
+<h1>@status</h1>
+<EditForm Model="@person" OnValidSubmit="FormSubmitted" OnInvalidSubmit="MyFun" >
+    <DataAnnotationsValidator></DataAnnotationsValidator>
+    <ValidationSummary></ValidationSummary>
+    <label for="Name">Name : </label>
+    <InputText id="name" @bind-Value="person.Name"></InputText>
+    <ValidationMessage For="@(()=> person.Name)"></ValidationMessage>
+    <br />
+    <label for="Age">Age : </label>
+    <InputNumber id="age" @bind-Value="person.Age"></InputNumber>
+    <br />
+    <label for="Email">Email : </label>
+    <InputText id="email" @bind-Value="person.Email"></InputText>
+    <br />
+    <input type="submit" value="Save" />
+</EditForm>
+
+@code {
+    string status = "Form is not submitted";
+    void MyFun() {
+        status = "There are some errors and this data should not be submitted to server.";
+    }
+    void FormSubmitted() {
+        status = "Form is submitted";
+
+    }
+    Person person = new Person {
+        Name = "Ali",
+        Age = 4,
+        Email = "ali@gmail.com"
+    };
+
+    public class Person {
+        [Required]
+        [StringLength(10, ErrorMessage ="Name is too long")]
+        public string Name { get; set; }
+        [Required]
+        [Range(18,80,ErrorMessage ="Age must be between 18 and 80")]
+        public int Age { get; set; }
+        [Required]
+        [EmailAddress]
+        public string Email { get; set; }
+
+    }
+
+}
