@@ -1,0 +1,23 @@
+﻿@page "/binder"
+<h3>Binder</h3>
+
+<input type="number" @bind="@num" @bind:event="oninput"  />
+<input type="checkbox" @bind="@isChecked" @bind:event="onchange" />
+<button @onclick="UpdateValue" >change Value</button>
+<br />
+<p>@num</p>
+<br />
+<p>@isChecked</p>
+@code {
+    int num = 10;
+
+    bool isChecked = false;
+
+
+
+    void UpdateValue() {
+        num = num + 1;
+        isChecked = !isChecked;
+
+    }
+}

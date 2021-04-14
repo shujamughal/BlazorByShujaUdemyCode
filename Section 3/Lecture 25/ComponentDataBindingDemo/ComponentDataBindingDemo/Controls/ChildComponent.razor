@@ -1,0 +1,19 @@
+﻿<h3>ChildComponent</h3>
+
+<h2>@ParnetNumber</h2>
+
+<button @onclick="UpdateValue">Update value from child</button>
+
+@code {
+    [Parameter]
+    public int ParnetNumber { get; set; }
+    [Parameter]
+    public EventCallback<int> myEventCallback1 { get; set; }
+
+    void UpdateValue() {
+
+        ParnetNumber = ParnetNumber + 1;
+        myEventCallback1.InvokeAsync(ParnetNumber);
+    }
+
+}

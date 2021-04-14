@@ -1,0 +1,15 @@
+﻿@page "/pc"
+<h3>ParentComponent</h3>
+<h1>@Number</h1>
+<button @onclick="UpdateValue" >Update Value</button>
+
+<ChildComponent @bind-ParnetNumber="@Number" @bind-ParnetNumber:event="myEventCallback1"> </ChildComponent>
+@code {
+
+    private int Number { get; set; } = 1;
+
+    void UpdateValue() {
+
+        Number = Number + 1;
+    }
+}
