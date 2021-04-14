@@ -1,0 +1,20 @@
+﻿@page "/pc"
+
+<h3>ParentComponent</h3>
+
+<ChildComponent>
+    <MySection Context="myPro">
+        <div class="bg-primary">
+            <p>@myPro.Id</p>
+            <p>@myPro.Name</p>
+            <p>@myPro.Price</p>
+        </div>
+    </MySection>
+   
+</ChildComponent>
+
+@code {
+
+     bool isDisplay = true;
+
+}
