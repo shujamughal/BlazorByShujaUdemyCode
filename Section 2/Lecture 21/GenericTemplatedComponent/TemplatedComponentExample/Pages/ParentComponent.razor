@@ -1,0 +1,25 @@
+﻿@page "/pc"
+
+<h3>ParentComponent</h3>
+
+<ChildComponent Items="@list" TItem="Product">
+    <MySection Context="myPro">
+        <div class="bg-primary">
+            <p>@myPro.Id</p>
+            <p>@myPro.Name</p>
+            <p>@myPro.Price</p>
+        </div>
+    </MySection>
+   
+</ChildComponent>
+
+@code {
+
+    List<Product> list = new List<Product> {
+
+            new Product {Id=1, Name="Car", Price=400 },
+            new Product {Id=2, Name="Bike", Price=500 },
+            new Product {Id=3, Name="Cycle", Price=600 }
+    };
+
+}
