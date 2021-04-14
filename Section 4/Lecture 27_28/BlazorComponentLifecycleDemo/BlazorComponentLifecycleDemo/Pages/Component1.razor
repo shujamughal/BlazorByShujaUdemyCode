@@ -1,0 +1,52 @@
+﻿@page "/p1/{Param1?}"
+<h3>Component1</h3>
+
+<p>@message</p>
+<p>@Param1</p>
+<button @onclick="m1">click me</button>
+<ChildComponent MyPara="@Param1"></ChildComponent>
+@code { 
+
+    void m1()
+    {
+        c = c + 1;
+        Param1 = "setting in m1"+c;
+    }
+    int c = 1;
+    string message;
+    [Parameter]
+    public string Param1 { get; set; }
+    public override async Task SetParametersAsync(ParameterView parameters)
+    {
+        await base.SetParametersAsync(parameters);
+        if (parameters.TryGetValue<string>(nameof(Param1), out var value)) {
+
+            if (value is null)
+            {
+                Param1 = "some default value";
+                message = "user does not supply any value.";
+            } else if (value.Equals("abcd")) {
+                Param1 = "some other value";
+            }
+            else {
+                message = "user supply the value of param1" + Param1;
+            }
+
+
+        }
+        Console.WriteLine("SetParametersAsync");
+
+    }
+    protected override void OnParametersSet()
+    {
+        base.OnParametersSet();
+        Console.WriteLine("OnParametersSet");
+    }
+
+    protected override void OnAfterRender(bool firstRender)
+    {
+        Console.WriteLine("OnAfterRender");
+
+        base.OnAfterRender(firstRender);
+    }
+}
