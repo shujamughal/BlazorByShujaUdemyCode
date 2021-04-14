@@ -1,0 +1,21 @@
+﻿<h3>ChildComponent</h3>
+
+<div>
+
+    @MySection
+
+    <br />
+    <br />
+    <br />
+
+    @MySection2
+</div>
+
+@code {
+    [Parameter]
+    public RenderFragment MySection { get; set; }
+
+    [Parameter]
+    public RenderFragment MySection2 { get; set; }
+
+}

@@ -1,0 +1,31 @@
+﻿@page "/pc"
+
+<h3>ParentComponent</h3>
+
+<ChildComponent>
+    <MySection>
+        <div class="bg-primary">
+            <p>this is the content which I am sending from paraent to child</p>
+            <input type="text" />
+        </div>
+    </MySection>
+    <MySection2>
+        @if (isDisplay)
+        {
+        <div class="bg-info">
+            <p> this is true</p>
+        </div>
+        }
+        else { 
+        
+        <p> this is else part</p>
+        }
+
+    </MySection2>
+</ChildComponent>
+
+@code {
+
+     bool isDisplay = true;
+
+}
