@@ -1,0 +1,18 @@
+﻿@page "/pc"
+    <div style="background-color:green">
+        <h3>ParentComponent</h3>
+        <CascadingValue Name="m" Value="@Message">
+            <CascadingValue Name="a" Value="@Age">
+                <CascadingValue Name="MYn" Value="@Name">
+                    <ChildComponent></ChildComponent>
+                </CascadingValue>
+            </CascadingValue>
+            </CascadingValue>
+</div>
+    @code {
+        public string Message { get; set; } = "I am from Parent";
+
+        public int Age { get; set; } = 96;
+
+        public string Name { get; set; } = "Ibrahim";
+    }

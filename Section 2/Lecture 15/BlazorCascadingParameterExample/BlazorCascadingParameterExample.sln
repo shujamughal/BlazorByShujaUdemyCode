@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorCascadingParameterExample", "BlazorCascadingParameterExample\BlazorCascadingParameterExample.csproj", "{97BD5819-51D4-4A56-B4D5-BEDB35EA893A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97BD5819-51D4-4A56-B4D5-BEDB35EA893A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97BD5819-51D4-4A56-B4D5-BEDB35EA893A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97BD5819-51D4-4A56-B4D5-BEDB35EA893A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97BD5819-51D4-4A56-B4D5-BEDB35EA893A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DD7E7818-1D26-44A0-A615-5412564D241E}
+	EndGlobalSection
+EndGlobal

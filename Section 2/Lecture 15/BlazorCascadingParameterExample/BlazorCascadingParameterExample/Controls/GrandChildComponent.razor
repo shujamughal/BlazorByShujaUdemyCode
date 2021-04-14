@@ -1,0 +1,18 @@
+﻿<div style="background-color:red">
+
+    <h3>GrandChildComponent</h3>
+    <p> @MyMessage</p>
+    <p> @MyAge</p>
+    <p> @MyName</p>
+</div>
+
+    @code {
+        [CascadingParameter(Name ="m")]
+        public string MyMessage { get; set; }
+
+        [CascadingParameter(Name ="a")]
+        public int MyAge { get; set; }
+
+        [CascadingParameter(Name ="MYn")]
+        public string MyName { get; set; }
+    }
