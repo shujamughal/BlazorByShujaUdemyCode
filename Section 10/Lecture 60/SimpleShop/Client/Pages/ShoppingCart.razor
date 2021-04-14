@@ -1,0 +1,39 @@
+﻿<h1>@Title</h1>
+@if (Cart.Orders.Any()) {
+
+    <div class="card-group">
+        @foreach(var (product,pos) in Products)
+                {
+
+            <ProductItem Product="@product"
+                         ButtonClass="btn btn-danger"
+                         ButtonTitle="Remove"
+                         SelectedProduct="@(async (_) => await Selected.InvokeAsync(pos))"
+                         ></ProductItem>
+                }
+
+    </div>
+ }
+
+@code {
+    [Parameter]
+    public EventCallback<int> Selected { get; set; }
+
+    [Parameter]
+    public string Title { get; set; }
+
+    [Parameter]
+    public Cart Cart { get; set; }
+
+    public IEnumerable<(Product, int pos)> Products { get; set; }
+    [Parameter]
+    public Func<int,Product> GetProductFromId { get; set; }
+
+    protected override void OnParametersSet()
+    {
+        base.OnParametersSet();
+        Products = Cart.Orders.Select((id,position)=>
+        (product: GetProductFromId(id),position:position));
+    }
+
+}

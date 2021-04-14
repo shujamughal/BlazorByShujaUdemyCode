@@ -1,0 +1,42 @@
+﻿@if (Cart.Orders.Any())
+{
+
+    <h1>@Title</h1>
+    <div class="card-group">
+
+        @foreach (var product in Products)
+        {
+            <ProductItem Product="@product"
+                         
+                         />}
+    </div>
+
+
+
+}
+
+@code {
+
+    [Parameter]
+    public string Title { get; set; }
+
+    [Parameter]
+    public Cart Cart { get; set; }
+
+    public IEnumerable<Product> Products { get; set; }
+
+    [Parameter]
+    public Func<int, Product> GetProductFromId { get; set; }
+
+    protected override void OnParametersSet()
+    {
+        base.OnParametersSet();
+        Products = Cart.Orders.Select((id) =>
+                      GetProductFromId(id));
+        //GetProducts();
+    }
+
+    private void GetProducts() {
+
+    }
+}

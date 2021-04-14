@@ -1,0 +1,33 @@
+﻿<div class="card" style="width: 18rem;">
+    <img height="150" width="150" src="@ProductImage(Product.Catagory)" >
+    <div class="card-body">
+        <h5 class="card-title">@Product.Name</h5>
+        <p class="card-text">  @Product.Price</p>
+        <p class="card-text">  @Product.Catagory</p>
+        <div class="card-footer">
+            <a  class="@ButtonClass"
+               @onclick="@(async()=> await SelectedProduct.InvokeAsync(Product))"
+               >@ButtonTitle</a>
+
+        </div>
+        
+    </div>
+</div>
+
+
+@code{
+    [Parameter]
+    public Product Product { get; set; }
+
+    [Parameter]
+    public string ButtonTitle { get; set; }
+    [Parameter]
+    public string ButtonClass { get; set; }
+    [Parameter]
+    public EventCallback<Product> SelectedProduct { get; set; }
+
+    private string ProductImage(Catagory catgory) {
+        return $"Images/{catgory.ToString().ToLower()}.png";
+    }
+
+}

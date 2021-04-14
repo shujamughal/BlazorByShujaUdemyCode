@@ -1,0 +1,38 @@
+﻿@page "/"
+<h1>  Products</h1>
+<div class="card-group">
+    @foreach (var product in Catalog.Products)
+    {
+
+        <ProductItem Product="@product"
+                     ButtonTitle="Add"
+                     ButtonClass="btn btn-success"
+                     SelectedProduct="@(async(p)=> AddtoCart(p))"
+                     ></ProductItem>
+    }
+</div>
+
+<ShoppingCart Cart="@Cart" Title="Your Cart" GetProductFromId="@Catalog.GetProduct"
+              />
+
+
+
+@code {
+
+    public Cart Cart { get; set; } = new Cart();
+    private void AddtoCart(Product product) {
+        Console.WriteLine($"Product added :{product.Name}");
+        Cart.Add(product.Id);
+    }
+    private Catalog Catalog { get; set; } = new Catalog
+    {
+
+        Products = new List<Product> {
+        new Product(1,"Table",98,Catagory.Furniture),
+        new Product(2,"Jeans",45,Catagory.Cloth),
+        new Product(3,"Football",190,Catagory.Sport),
+        }
+
+    };
+
+}
