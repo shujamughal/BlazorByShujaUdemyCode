@@ -1,0 +1,31 @@
+﻿@page "/c1"
+
+<p>
+    Message: @message
+</p>
+<button onclick="JSFunction('my value')"> Call JS Method</button>
+@code {
+    private static Func<string, string> action;
+
+    private string message = "Select the button.";
+
+    protected override void OnInitialized()
+    {
+        action = DotNetFunction;
+    }
+
+
+    private string DotNetFunction(string name)
+    {
+        message = $"{name}, DotNetFunction Called!";
+        StateHasChanged();
+
+        return message;
+    }
+
+    [JSInvokable]
+    public static string FunctionCaller(string name)
+    {
+        return action.Invoke(name);
+    }
+}

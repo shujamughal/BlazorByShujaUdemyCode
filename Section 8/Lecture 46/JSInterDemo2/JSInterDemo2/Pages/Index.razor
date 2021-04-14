@@ -1,0 +1,31 @@
+﻿@page "/"
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+
+<SurveyPrompt Title="How is Blazor working for you?" />
+<p>The value is: <span id="s1"> </span>  </p>
+<button onclick="GetNumber(1)"> Click Here</button>
+
+<button onclick="GetSR(5)"> Click Here 2</button>
+
+@code {
+
+    [JSInvokable]
+    public static int ReturnArray(int index)
+    {
+        int[] nos = { 10, 20, 30, 40 };
+        return nos[index];
+    }
+
+    [JSInvokable]
+    public static Task<string> CalculateSquareRootAsync(int number)
+    {
+        var result = Math.Sqrt(number);
+        return Task.FromResult($"The square root of {number} is {result}");
+
+    }
+
+
+}
