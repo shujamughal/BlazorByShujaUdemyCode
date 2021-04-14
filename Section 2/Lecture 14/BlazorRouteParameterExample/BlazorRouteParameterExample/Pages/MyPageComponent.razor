@@ -1,0 +1,25 @@
+﻿@page "/mpc/{Title}/{Id:int}"
+@page "/mpc"
+
+<h3>MyPageComponent</h3>
+<p style="color:green">@Title</p>
+
+<p style="color:green">@Id</p>
+
+
+@code {
+    [Parameter]
+    public int? Id { get; set; }
+
+    [Parameter]
+    public string Title { get; set; }
+
+        protected override void OnInitialized()
+        {
+            base.OnInitialized();
+
+        Title = Title ?? "default Title";
+        Id = Id ?? 1;
+        }
+
+}
