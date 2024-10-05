@@ -1,0 +1,11 @@
+﻿@page "/mc"
+@page "/mc/{SomeData}/{Id:int}"
+<h3>MyComponent</h3>
+<h2>@SomeData</h2>
+<h3>@Id</h3>
+@code {
+    [Parameter]
+    public string SomeData { get; set; }
+    [Parameter]
+    public int Id { get; set; }
+}

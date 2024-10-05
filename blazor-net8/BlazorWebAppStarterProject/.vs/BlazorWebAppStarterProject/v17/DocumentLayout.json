@@ -1,0 +1,243 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BlazorWebAppStarterProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0A04936C-923C-426E-B895-4D3DE339B9E1}|BlazorWebAppStarterProject.Client\\BlazorWebAppStarterProject.Client.csproj|c:\\shuja\\code examples\\blazorbyshujaudemycode\\blazor-net8\\blazorwebappstarterproject\\blazorwebappstarterproject.client\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0A04936C-923C-426E-B895-4D3DE339B9E1}|BlazorWebAppStarterProject.Client\\BlazorWebAppStarterProject.Client.csproj|solutionrelative:blazorwebappstarterproject.client\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A04936C-923C-426E-B895-4D3DE339B9E1}|BlazorWebAppStarterProject.Client\\BlazorWebAppStarterProject.Client.csproj|c:\\shuja\\code examples\\blazorbyshujaudemycode\\blazor-net8\\blazorwebappstarterproject\\blazorwebappstarterproject.client\\pages\\mycomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0A04936C-923C-426E-B895-4D3DE339B9E1}|BlazorWebAppStarterProject.Client\\BlazorWebAppStarterProject.Client.csproj|solutionrelative:blazorwebappstarterproject.client\\pages\\mycomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A04936C-923C-426E-B895-4D3DE339B9E1}|BlazorWebAppStarterProject.Client\\BlazorWebAppStarterProject.Client.csproj|c:\\shuja\\code examples\\blazorbyshujaudemycode\\blazor-net8\\blazorwebappstarterproject\\blazorwebappstarterproject.client\\pages\\parentcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0A04936C-923C-426E-B895-4D3DE339B9E1}|BlazorWebAppStarterProject.Client\\BlazorWebAppStarterProject.Client.csproj|solutionrelative:blazorwebappstarterproject.client\\pages\\parentcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3160EE29-A781-4340-AC79-24A27965E4BE}|BlazorWebAppStarterProject\\BlazorWebAppStarterProject.csproj|c:\\shuja\\code examples\\blazorbyshujaudemycode\\blazor-net8\\blazorwebappstarterproject\\blazorwebappstarterproject\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3160EE29-A781-4340-AC79-24A27965E4BE}|BlazorWebAppStarterProject\\BlazorWebAppStarterProject.csproj|solutionrelative:blazorwebappstarterproject\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A04936C-923C-426E-B895-4D3DE339B9E1}|BlazorWebAppStarterProject.Client\\BlazorWebAppStarterProject.Client.csproj|c:\\shuja\\code examples\\blazorbyshujaudemycode\\blazor-net8\\blazorwebappstarterproject\\blazorwebappstarterproject.client\\pages\\childecomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0A04936C-923C-426E-B895-4D3DE339B9E1}|BlazorWebAppStarterProject.Client\\BlazorWebAppStarterProject.Client.csproj|solutionrelative:blazorwebappstarterproject.client\\pages\\childecomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A04936C-923C-426E-B895-4D3DE339B9E1}|BlazorWebAppStarterProject.Client\\BlazorWebAppStarterProject.Client.csproj|c:\\shuja\\code examples\\blazorbyshujaudemycode\\blazor-net8\\blazorwebappstarterproject\\blazorwebappstarterproject.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A04936C-923C-426E-B895-4D3DE339B9E1}|BlazorWebAppStarterProject.Client\\BlazorWebAppStarterProject.Client.csproj|solutionrelative:blazorwebappstarterproject.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3160EE29-A781-4340-AC79-24A27965E4BE}|BlazorWebAppStarterProject\\BlazorWebAppStarterProject.csproj|c:\\shuja\\code examples\\blazorbyshujaudemycode\\blazor-net8\\blazorwebappstarterproject\\blazorwebappstarterproject\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3160EE29-A781-4340-AC79-24A27965E4BE}|BlazorWebAppStarterProject\\BlazorWebAppStarterProject.csproj|solutionrelative:blazorwebappstarterproject\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3160EE29-A781-4340-AC79-24A27965E4BE}|BlazorWebAppStarterProject\\BlazorWebAppStarterProject.csproj|c:\\shuja\\code examples\\blazorbyshujaudemycode\\blazor-net8\\blazorwebappstarterproject\\blazorwebappstarterproject\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3160EE29-A781-4340-AC79-24A27965E4BE}|BlazorWebAppStarterProject\\BlazorWebAppStarterProject.csproj|solutionrelative:blazorwebappstarterproject\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3160EE29-A781-4340-AC79-24A27965E4BE}|BlazorWebAppStarterProject\\BlazorWebAppStarterProject.csproj|c:\\shuja\\code examples\\blazorbyshujaudemycode\\blazor-net8\\blazorwebappstarterproject\\blazorwebappstarterproject\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3160EE29-A781-4340-AC79-24A27965E4BE}|BlazorWebAppStarterProject\\BlazorWebAppStarterProject.csproj|solutionrelative:blazorwebappstarterproject\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3160EE29-A781-4340-AC79-24A27965E4BE}|BlazorWebAppStarterProject\\BlazorWebAppStarterProject.csproj|c:\\shuja\\code examples\\blazorbyshujaudemycode\\blazor-net8\\blazorwebappstarterproject\\blazorwebappstarterproject\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3160EE29-A781-4340-AC79-24A27965E4BE}|BlazorWebAppStarterProject\\BlazorWebAppStarterProject.csproj|solutionrelative:blazorwebappstarterproject\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3160EE29-A781-4340-AC79-24A27965E4BE}|BlazorWebAppStarterProject\\BlazorWebAppStarterProject.csproj|c:\\shuja\\code examples\\blazorbyshujaudemycode\\blazor-net8\\blazorwebappstarterproject\\blazorwebappstarterproject\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3160EE29-A781-4340-AC79-24A27965E4BE}|BlazorWebAppStarterProject\\BlazorWebAppStarterProject.csproj|solutionrelative:blazorwebappstarterproject\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3160EE29-A781-4340-AC79-24A27965E4BE}|BlazorWebAppStarterProject\\BlazorWebAppStarterProject.csproj|c:\\shuja\\code examples\\blazorbyshujaudemycode\\blazor-net8\\blazorwebappstarterproject\\blazorwebappstarterproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3160EE29-A781-4340-AC79-24A27965E4BE}|BlazorWebAppStarterProject\\BlazorWebAppStarterProject.csproj|solutionrelative:blazorwebappstarterproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3160EE29-A781-4340-AC79-24A27965E4BE}|BlazorWebAppStarterProject\\BlazorWebAppStarterProject.csproj|c:\\shuja\\code examples\\blazorbyshujaudemycode\\blazor-net8\\blazorwebappstarterproject\\blazorwebappstarterproject\\components\\layout\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{3160EE29-A781-4340-AC79-24A27965E4BE}|BlazorWebAppStarterProject\\BlazorWebAppStarterProject.csproj|solutionrelative:blazorwebappstarterproject\\components\\layout\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MyComponent.razor",
+              "DocumentMoniker": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BlazorWebAppStarterProject\\BlazorWebAppStarterProject.Client\\Pages\\MyComponent.razor",
+              "RelativeDocumentMoniker": "BlazorWebAppStarterProject.Client\\Pages\\MyComponent.razor",
+              "ToolTip": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BlazorWebAppStarterProject\\BlazorWebAppStarterProject.Client\\Pages\\MyComponent.razor",
+              "RelativeToolTip": "BlazorWebAppStarterProject.Client\\Pages\\MyComponent.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-30T05:21:59.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ChildeComponent.razor",
+              "DocumentMoniker": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BlazorWebAppStarterProject\\BlazorWebAppStarterProject.Client\\Pages\\ChildeComponent.razor",
+              "RelativeDocumentMoniker": "BlazorWebAppStarterProject.Client\\Pages\\ChildeComponent.razor",
+              "ToolTip": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BlazorWebAppStarterProject\\BlazorWebAppStarterProject.Client\\Pages\\ChildeComponent.razor",
+              "RelativeToolTip": "BlazorWebAppStarterProject.Client\\Pages\\ChildeComponent.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-30T05:12:30.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ParentComponent.razor",
+              "DocumentMoniker": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BlazorWebAppStarterProject\\BlazorWebAppStarterProject.Client\\Pages\\ParentComponent.razor",
+              "RelativeDocumentMoniker": "BlazorWebAppStarterProject.Client\\Pages\\ParentComponent.razor",
+              "ToolTip": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BlazorWebAppStarterProject\\BlazorWebAppStarterProject.Client\\Pages\\ParentComponent.razor",
+              "RelativeToolTip": "BlazorWebAppStarterProject.Client\\Pages\\ParentComponent.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-30T05:12:15.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BlazorWebAppStarterProject\\BlazorWebAppStarterProject.Client\\Program.cs",
+              "RelativeDocumentMoniker": "BlazorWebAppStarterProject.Client\\Program.cs",
+              "ToolTip": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BlazorWebAppStarterProject\\BlazorWebAppStarterProject.Client\\Program.cs",
+              "RelativeToolTip": "BlazorWebAppStarterProject.Client\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T11:34:47.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BlazorWebAppStarterProject\\BlazorWebAppStarterProject\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "BlazorWebAppStarterProject\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BlazorWebAppStarterProject\\BlazorWebAppStarterProject\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "BlazorWebAppStarterProject\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-29T11:29:42.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Routes.razor",
+              "DocumentMoniker": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BlazorWebAppStarterProject\\BlazorWebAppStarterProject\\Components\\Routes.razor",
+              "RelativeDocumentMoniker": "BlazorWebAppStarterProject\\Components\\Routes.razor",
+              "ToolTip": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BlazorWebAppStarterProject\\BlazorWebAppStarterProject\\Components\\Routes.razor",
+              "RelativeToolTip": "BlazorWebAppStarterProject\\Components\\Routes.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-29T11:29:27.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Counter.razor",
+              "DocumentMoniker": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BlazorWebAppStarterProject\\BlazorWebAppStarterProject.Client\\Pages\\Counter.razor",
+              "RelativeDocumentMoniker": "BlazorWebAppStarterProject.Client\\Pages\\Counter.razor",
+              "ToolTip": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BlazorWebAppStarterProject\\BlazorWebAppStarterProject.Client\\Pages\\Counter.razor",
+              "RelativeToolTip": "BlazorWebAppStarterProject.Client\\Pages\\Counter.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-29T11:01:04.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Weather.razor",
+              "DocumentMoniker": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BlazorWebAppStarterProject\\BlazorWebAppStarterProject\\Components\\Pages\\Weather.razor",
+              "RelativeDocumentMoniker": "BlazorWebAppStarterProject\\Components\\Pages\\Weather.razor",
+              "ToolTip": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BlazorWebAppStarterProject\\BlazorWebAppStarterProject\\Components\\Pages\\Weather.razor",
+              "RelativeToolTip": "BlazorWebAppStarterProject\\Components\\Pages\\Weather.razor",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-29T11:29:59.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BlazorWebAppStarterProject\\BlazorWebAppStarterProject\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "BlazorWebAppStarterProject\\Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BlazorWebAppStarterProject\\BlazorWebAppStarterProject\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "BlazorWebAppStarterProject\\Components\\Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-29T11:14:37.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BlazorWebAppStarterProject\\BlazorWebAppStarterProject\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "BlazorWebAppStarterProject\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BlazorWebAppStarterProject\\BlazorWebAppStarterProject\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "BlazorWebAppStarterProject\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-29T11:01:56.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BlazorWebAppStarterProject\\BlazorWebAppStarterProject\\Components\\App.razor",
+              "RelativeDocumentMoniker": "BlazorWebAppStarterProject\\Components\\App.razor",
+              "ToolTip": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BlazorWebAppStarterProject\\BlazorWebAppStarterProject\\Components\\App.razor",
+              "RelativeToolTip": "BlazorWebAppStarterProject\\Components\\App.razor",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-29T11:15:25.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BlazorWebAppStarterProject\\BlazorWebAppStarterProject\\Program.cs",
+              "RelativeDocumentMoniker": "BlazorWebAppStarterProject\\Program.cs",
+              "ToolTip": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BlazorWebAppStarterProject\\BlazorWebAppStarterProject\\Program.cs",
+              "RelativeToolTip": "BlazorWebAppStarterProject\\Program.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T11:13:41.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "NavMenu.razor.css",
+              "DocumentMoniker": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BlazorWebAppStarterProject\\BlazorWebAppStarterProject\\Components\\Layout\\NavMenu.razor.css",
+              "RelativeDocumentMoniker": "BlazorWebAppStarterProject\\Components\\Layout\\NavMenu.razor.css",
+              "ToolTip": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BlazorWebAppStarterProject\\BlazorWebAppStarterProject\\Components\\Layout\\NavMenu.razor.css",
+              "RelativeToolTip": "BlazorWebAppStarterProject\\Components\\Layout\\NavMenu.razor.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-29T11:01:52.615Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 101,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
