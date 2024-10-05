@@ -1,0 +1,41 @@
+﻿<!-- ProductCard.razor -->
+@using Models
+
+<div class="card @CardClass">
+    <img src="@Product.ImageUrl" class="card-img-top" alt="@Product.Name" />
+    <div class="card-body">
+        <h5 class="card-title">@Product.Name</h5>
+        <p class="card-text">@Product.Description</p>
+        <p class="card-text"><strong>Price:</strong> @Product.Price.ToString("C")</p>
+        <button class="btn btn-primary" @onclick="OnAddToCartClicked">Add to Cart</button>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public Product Product { get; set; }
+
+    [Parameter]
+    public EventCallback<Product> OnAddToCart { get; set; }
+
+    public string CardClass { get; set; } = string.Empty;
+
+    private async Task OnAddToCartClicked()
+    {
+        // Invoke the EventCallback and pass the product back to the parent component
+        await OnAddToCart.InvokeAsync(Product);
+    }
+
+    // Method to highlight the product card (called from the parent)
+    public void HighlightCard()
+    {
+        CardClass = "highlight";
+        StateHasChanged(); // To re-render the component with the new class
+    }
+    // Method to remove highlight from the product card (called from the parent)
+    public void RemoveHighlight()
+    {
+        CardClass = string.Empty; // Clear the highlight class
+        StateHasChanged(); // To re-render the component with the updated class
+    }
+}

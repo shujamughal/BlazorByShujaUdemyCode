@@ -1,0 +1,55 @@
+﻿@page "/"
+
+@using SharedComponents.Models
+@using SharedComponents.Componenets
+
+<h3>Product List</h3>
+
+<div class="row">
+    @foreach (var product in Products)
+    {
+        <div class="col-md-4 mb-4">
+                <ProductCard Product="product" OnAddToCart="HandleAddToCart" @rendermode="InteractiveServer"  />
+        </div>
+    }
+</div>
+
+<h3>Shopping Cart</h3>
+@if (ShoppingCart.Count == 0)
+{
+    <p>No items in the cart.</p>
+}
+else
+{
+    <ul>
+        @foreach (var product in ShoppingCart)
+        {
+            <li>@product.Name - @product.Price.ToString("C")</li>
+        }
+    </ul>
+}
+
+@code {
+    private List<Product> Products { get; set; }
+    private List<Product> ShoppingCart { get; set; } = new List<Product>();
+
+    protected override void OnInitialized()
+    {
+        // Sample product data
+        Products = new List<Product>
+        {
+            new Product { Name = "Product 1", Description = "This is product 1", Price = 10.99m, ImageUrl = "https://via.placeholder.com/150" },
+            new Product { Name = "Product 2", Description = "This is product 2", Price = 20.99m, ImageUrl = "https://via.placeholder.com/150" },
+            new Product { Name = "Product 3", Description = "This is product 3", Price = 30.99m, ImageUrl = "https://via.placeholder.com/150" }
+        };
+    }
+
+    // Handle the "Add to Cart" event from the ProductCard component
+    private void HandleAddToCart(Product product)
+    {
+        // Log the product details (for debugging)
+        Console.WriteLine($"Product added: {product.Name}");
+
+        ShoppingCart.Add(product);
+    }
+}
