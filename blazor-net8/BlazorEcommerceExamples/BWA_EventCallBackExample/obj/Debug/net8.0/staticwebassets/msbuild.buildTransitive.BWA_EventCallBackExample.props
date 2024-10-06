@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\BWA_EventCallBackExample.props" />
-</Project>

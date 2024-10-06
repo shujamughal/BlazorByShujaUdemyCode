@@ -1,0 +1,96 @@
+﻿@page "/"
+
+@using Models
+@using BWA_TemplatedComponentExample.Components
+
+<h3>Product List</h3>
+    
+<div class="row">
+    @foreach (var product in Products)
+    {
+        <div class="col-md-4 mb-4">
+            <ProductCard Product="product" OnAddToCart="HandleAddToCart" @ref="productCardRefs[Products.IndexOf(product)]" >
+    <Template>
+        <div>
+            <h5 class="card-title">@context.Name</h5>
+            <p class="card-text">@context.Description</p>
+            <p class="card-text"><strong>Price:</strong> @context.Price.ToString("C")</p>
+            <p class="card-text"><em>Custom Template Content Here</em></p>
+        </div>
+    </Template>
+</ProductCard>
+
+        </div>
+    }
+</div>
+<button class="btn btn-success mt-4" @onclick="HighlightAllCards">Highlight All Cards</button>
+
+<button class="btn btn-info" @onclick="HighlightCartCards">Highlight Added Products</button>
+<button class="btn btn-danger" @onclick="RemoveAllHighlights">Remove All Highlights</button>
+
+<h3>Shopping Cart</h3>
+@if (ShoppingCart.Count == 0)
+{
+    <p>No items in the cart.</p>
+}
+else
+{
+    <ul>
+        @foreach (var product in ShoppingCart)
+        {
+            <li>@product.Name - @product.Price.ToString("C")</li>
+        }
+    </ul>
+}
+
+@code {
+    private List<Product> Products { get; set; }
+    private List<Product> ShoppingCart { get; set; } = new List<Product>();
+    private ProductCard[] productCardRefs;
+
+    protected override void OnInitialized()
+    {
+        Products = new List<Product>
+        {
+            new Product { Name = "Product 1", Description = "This is product 1", Price = 10.99m, ImageUrl = "https://via.placeholder.com/150" },
+            new Product { Name = "Product 2", Description = "This is product 2", Price = 20.99m, ImageUrl = "https://via.placeholder.com/150" },
+            new Product { Name = "Product 3", Description = "This is product 3", Price = 30.99m, ImageUrl = "https://via.placeholder.com/150" }
+        };
+        // Initialize array for ProductCard references
+        productCardRefs = new ProductCard[Products.Count];
+    }
+
+    private void HandleAddToCart(Product product)
+    {
+        ShoppingCart.Add(product);
+    }
+
+    // Method to highlight all product cards by calling the method in each child component
+    private void HighlightAllCards()
+    {
+        foreach (var card in productCardRefs)
+        {
+            card?.HighlightCard(); // Ensure card reference exists before calling
+        }
+    }
+    // Method to highlight product cards that are in the shopping cart
+    private void HighlightCartCards()
+    {
+        foreach (var product in ShoppingCart)
+        {
+            int index = Products.IndexOf(product);
+            if (index >= 0) // Ensure the product exists in the Products list
+            {
+                productCardRefs[index]?.HighlightCard(); // Call HighlightCard only on products in the cart
+            }
+        }
+    }
+    // Method to remove all highlights from product cards
+    private void RemoveAllHighlights()
+    {
+        foreach (var productCard in productCardRefs)
+        {
+            productCard?.RemoveHighlight(); // Call RemoveHighlight for each ProductCard
+        }
+    }
+}

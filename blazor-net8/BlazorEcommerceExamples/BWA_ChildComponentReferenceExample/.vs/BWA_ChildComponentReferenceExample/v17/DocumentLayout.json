@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "Pages\\Home.razor",
               "ToolTip": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BlazorEcommerceExamples\\BWA_ChildComponentReferenceExample\\Pages\\Home.razor",
               "RelativeToolTip": "Pages\\Home.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAuwEgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-05T16:18:11.066Z",
               "EditorCaption": ""
@@ -57,7 +57,7 @@
               "RelativeDocumentMoniker": "wwwroot\\css\\app.css",
               "ToolTip": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BlazorEcommerceExamples\\BWA_ChildComponentReferenceExample\\wwwroot\\css\\app.css",
               "RelativeToolTip": "wwwroot\\css\\app.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-10-05T16:17:12.019Z",
               "EditorCaption": ""
@@ -70,7 +70,7 @@
               "RelativeDocumentMoniker": "Components\\ProductCard.razor",
               "ToolTip": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BlazorEcommerceExamples\\BWA_ChildComponentReferenceExample\\Components\\ProductCard.razor",
               "RelativeToolTip": "Components\\ProductCard.razor",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAmwBIAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-05T16:16:16.061Z",
               "EditorCaption": ""
@@ -85,21 +85,19 @@
               "RelativeToolTip": "Models\\Product.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAuwAcAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T16:15:43.118Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-05T16:15:43.118Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "BWA_ChildComponentReferenceExample",
+              "Title": "BWA_ChildComponentReferenceExample.csproj",
               "DocumentMoniker": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BlazorEcommerceExamples\\BWA_ChildComponentReferenceExample\\BWA_ChildComponentReferenceExample.csproj",
               "RelativeDocumentMoniker": "BWA_ChildComponentReferenceExample.csproj",
               "ToolTip": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BlazorEcommerceExamples\\BWA_ChildComponentReferenceExample\\BWA_ChildComponentReferenceExample.csproj",
               "RelativeToolTip": "BWA_ChildComponentReferenceExample.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-05T16:14:31.3Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-05T16:14:31.3Z"
             }
           ]
         },
