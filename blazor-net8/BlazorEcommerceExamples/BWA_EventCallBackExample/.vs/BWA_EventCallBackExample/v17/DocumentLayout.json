@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BlazorEcommerceExamples\\BWA_EventCallBackExample\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AB6C27AC-6883-4385-AFAF-C08AA7D82C47}|BWA_EventCallBackExample.csproj|c:\\shuja\\code examples\\blazorbyshujaudemycode\\blazor-net8\\blazorecommerceexamples\\bwa_eventcallbackexample\\components\\productcard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AB6C27AC-6883-4385-AFAF-C08AA7D82C47}|BWA_EventCallBackExample.csproj|solutionrelative:components\\productcard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{AB6C27AC-6883-4385-AFAF-C08AA7D82C47}|BWA_EventCallBackExample.csproj|c:\\shuja\\code examples\\blazorbyshujaudemycode\\blazor-net8\\blazorecommerceexamples\\bwa_eventcallbackexample\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB6C27AC-6883-4385-AFAF-C08AA7D82C47}|BWA_EventCallBackExample.csproj|solutionrelative:layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB6C27AC-6883-4385-AFAF-C08AA7D82C47}|BWA_EventCallBackExample.csproj|c:\\shuja\\code examples\\blazorbyshujaudemycode\\blazor-net8\\blazorecommerceexamples\\bwa_eventcallbackexample\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB6C27AC-6883-4385-AFAF-C08AA7D82C47}|BWA_EventCallBackExample.csproj|solutionrelative:app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB6C27AC-6883-4385-AFAF-C08AA7D82C47}|BWA_EventCallBackExample.csproj|c:\\shuja\\code examples\\blazorbyshujaudemycode\\blazor-net8\\blazorecommerceexamples\\bwa_eventcallbackexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB6C27AC-6883-4385-AFAF-C08AA7D82C47}|BWA_EventCallBackExample.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB6C27AC-6883-4385-AFAF-C08AA7D82C47}|BWA_EventCallBackExample.csproj|c:\\shuja\\code examples\\blazorbyshujaudemycode\\blazor-net8\\blazorecommerceexamples\\bwa_eventcallbackexample\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB6C27AC-6883-4385-AFAF-C08AA7D82C47}|BWA_EventCallBackExample.csproj|solutionrelative:wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB6C27AC-6883-4385-AFAF-C08AA7D82C47}|BWA_EventCallBackExample.csproj|c:\\shuja\\code examples\\blazorbyshujaudemycode\\blazor-net8\\blazorecommerceexamples\\bwa_eventcallbackexample\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB6C27AC-6883-4385-AFAF-C08AA7D82C47}|BWA_EventCallBackExample.csproj|solutionrelative:layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AB6C27AC-6883-4385-AFAF-C08AA7D82C47}|BWA_EventCallBackExample.csproj|c:\\shuja\\code examples\\blazorbyshujaudemycode\\blazor-net8\\blazorecommerceexamples\\bwa_eventcallbackexample\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{AB6C27AC-6883-4385-AFAF-C08AA7D82C47}|BWA_EventCallBackExample.csproj|solutionrelative:pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB6C27AC-6883-4385-AFAF-C08AA7D82C47}|BWA_EventCallBackExample.csproj|c:\\shuja\\code examples\\blazorbyshujaudemycode\\blazor-net8\\blazorecommerceexamples\\bwa_eventcallbackexample\\components\\productcard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB6C27AC-6883-4385-AFAF-C08AA7D82C47}|BWA_EventCallBackExample.csproj|solutionrelative:components\\productcard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AB6C27AC-6883-4385-AFAF-C08AA7D82C47}|BWA_EventCallBackExample.csproj|c:\\shuja\\code examples\\blazorbyshujaudemycode\\blazor-net8\\blazorecommerceexamples\\bwa_eventcallbackexample\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,32 +50,98 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BlazorEcommerceExamples\\BWA_EventCallBackExample\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BlazorEcommerceExamples\\BWA_EventCallBackExample\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-10T08:36:06.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BlazorEcommerceExamples\\BWA_EventCallBackExample\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BlazorEcommerceExamples\\BWA_EventCallBackExample\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-10T08:35:32.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BlazorEcommerceExamples\\BWA_EventCallBackExample\\App.razor",
+              "RelativeDocumentMoniker": "App.razor",
+              "ToolTip": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BlazorEcommerceExamples\\BWA_EventCallBackExample\\App.razor",
+              "RelativeToolTip": "App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-10T08:34:41.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BlazorEcommerceExamples\\BWA_EventCallBackExample\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BlazorEcommerceExamples\\BWA_EventCallBackExample\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T08:33:56.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BlazorEcommerceExamples\\BWA_EventCallBackExample\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "wwwroot\\index.html",
+              "ToolTip": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BlazorEcommerceExamples\\BWA_EventCallBackExample\\wwwroot\\index.html*",
+              "RelativeToolTip": "wwwroot\\index.html*",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-10T08:33:20.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Home.razor",
               "DocumentMoniker": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BlazorEcommerceExamples\\BWA_EventCallBackExample\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "Pages\\Home.razor",
               "ToolTip": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BlazorEcommerceExamples\\BWA_EventCallBackExample\\Pages\\Home.razor",
               "RelativeToolTip": "Pages\\Home.razor",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-05T15:35:06.719Z"
+              "WhenOpened": "2024-10-05T15:35:06.719Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "ProductCard.razor",
               "DocumentMoniker": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BlazorEcommerceExamples\\BWA_EventCallBackExample\\Components\\ProductCard.razor",
               "RelativeDocumentMoniker": "Components\\ProductCard.razor",
               "ToolTip": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BlazorEcommerceExamples\\BWA_EventCallBackExample\\Components\\ProductCard.razor",
               "RelativeToolTip": "Components\\ProductCard.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAABwAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-05T15:34:56.027Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BlazorEcommerceExamples\\BWA_EventCallBackExample\\Models\\Product.cs",
               "RelativeDocumentMoniker": "Models\\Product.cs",

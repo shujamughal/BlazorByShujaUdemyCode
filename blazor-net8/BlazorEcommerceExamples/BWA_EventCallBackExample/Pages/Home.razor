@@ -1,7 +1,10 @@
-﻿@page "/"
+﻿@page "/{Data}/{Id:int}"
+@page "/"
 
 @using Models
 @using BWA_EventCallBackExample.Components
+<h1>@Data</h1>
+<h1>@Id</h1>
 
 <h3>Product List</h3>
 
@@ -30,6 +33,10 @@ else
 }
 
 @code {
+    [Parameter]
+    public string Data { get; set; }
+    [Parameter]
+    public int Id { get; set; }
     private List<Product> Products { get; set; }
     private List<Product> ShoppingCart { get; set; } = new List<Product>();
 

@@ -1,0 +1,65 @@
+﻿@page "/dashboard"
+@using Models
+@using BWA_DashboardTemplatedComponentExample.Components
+
+<h3>User Dashboard</h3>
+
+<!-- Display Users -->
+@foreach (var user in Users)
+{
+    <DataCard  Title="@user.Name">
+        <div style="background-color:blue">
+            <p><strong>Email:</strong> @user.Email</p>
+        </div>
+
+        </DataCard>
+}
+
+<h3>Product Dashboard</h3>
+
+<!-- Display Products -->
+@foreach (var product in Products)
+{
+    <DataCard  Title="@product.Name">
+        <div style="background-color:yellow">
+        
+        <p><strong>Price:</strong> @product.Price.ToString("C")</p>
+    </div>    
+    </DataCard>
+}
+
+<h3>Order Dashboard</h3>
+
+<!-- Display Orders -->
+@foreach (var order in Orders)
+{
+    <DataCard  Title="@($"Order #{order.OrderId}")">
+        <div style="background-color:red">
+    
+        <p><strong>Date:</strong> @order.Date.ToString("MMMM dd, yyyy")</p>
+   </div>
+    </DataCard>
+}
+
+@code {
+    // Sample data for users
+    private List<User> Users = new List<User>
+    {
+        new User { Name = "Ahsan", Email = "Ahsan@example.com" },
+        new User { Name = "Ali", Email = "Ali@example.com" }
+    };
+
+    // Sample data for products
+    private List<Product> Products = new List<Product>
+    {
+        new Product { Name = "Laptop", Price = 999.99m },
+        new Product { Name = "Smartphone", Price = 499.99m }
+    };
+
+    // Sample data for orders
+    private List<Order> Orders = new List<Order>
+    {
+        new Order { OrderId = 1, Date = DateTime.Now.AddDays(-1) },
+        new Order { OrderId = 2, Date = DateTime.Now }
+    };
+}

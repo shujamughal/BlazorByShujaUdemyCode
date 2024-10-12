@@ -34,8 +34,7 @@
               "RelativeToolTip": "TemplatedComponentExample\\Pages\\ParentComponent.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-06T07:54:50.79Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-06T07:54:50.79Z"
             },
             {
               "$type": "Document",
@@ -45,7 +44,7 @@
               "RelativeDocumentMoniker": "TemplatedComponentExample\\Controls\\ChildComponent.razor",
               "ToolTip": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\Section 2\\Lecture 21\\GenericTemplatedComponent\\TemplatedComponentExample\\Controls\\ChildComponent.razor",
               "RelativeToolTip": "TemplatedComponentExample\\Controls\\ChildComponent.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-06T07:53:51.821Z",
               "EditorCaption": ""

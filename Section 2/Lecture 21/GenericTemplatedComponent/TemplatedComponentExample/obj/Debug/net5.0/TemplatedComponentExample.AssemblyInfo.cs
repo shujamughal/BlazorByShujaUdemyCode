@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TemplatedComponentExample")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7d13c1bbff998c78d269968af9d6427a1e132f88")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bee10c76efca982af6b5660aa60396317ed1f280")]
 [assembly: System.Reflection.AssemblyProductAttribute("TemplatedComponentExample")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TemplatedComponentExample")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

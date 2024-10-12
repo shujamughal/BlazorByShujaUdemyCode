@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BlazorEcommerceExamples\\BWA_TemplatedComponentExample\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D10EC147-015D-4ABD-A919-B018158D8DB7}|BWA_TemplatedComponentExample.csproj|c:\\shuja\\code examples\\blazorbyshujaudemycode\\blazor-net8\\blazorecommerceexamples\\bwa_templatedcomponentexample\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D10EC147-015D-4ABD-A919-B018158D8DB7}|BWA_TemplatedComponentExample.csproj|solutionrelative:pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D10EC147-015D-4ABD-A919-B018158D8DB7}|BWA_TemplatedComponentExample.csproj|c:\\shuja\\code examples\\blazorbyshujaudemycode\\blazor-net8\\blazorecommerceexamples\\bwa_templatedcomponentexample\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{D10EC147-015D-4ABD-A919-B018158D8DB7}|BWA_TemplatedComponentExample.csproj|solutionrelative:wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D10EC147-015D-4ABD-A919-B018158D8DB7}|BWA_TemplatedComponentExample.csproj|c:\\shuja\\code examples\\blazorbyshujaudemycode\\blazor-net8\\blazorecommerceexamples\\bwa_templatedcomponentexample\\components\\productcard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D10EC147-015D-4ABD-A919-B018158D8DB7}|BWA_TemplatedComponentExample.csproj|solutionrelative:components\\productcard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D10EC147-015D-4ABD-A919-B018158D8DB7}|BWA_TemplatedComponentExample.csproj|c:\\shuja\\code examples\\blazorbyshujaudemycode\\blazor-net8\\blazorecommerceexamples\\bwa_templatedcomponentexample\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{D10EC147-015D-4ABD-A919-B018158D8DB7}|BWA_TemplatedComponentExample.csproj|solutionrelative:wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D10EC147-015D-4ABD-A919-B018158D8DB7}|BWA_TemplatedComponentExample.csproj|c:\\shuja\\code examples\\blazorbyshujaudemycode\\blazor-net8\\blazorecommerceexamples\\bwa_templatedcomponentexample\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D10EC147-015D-4ABD-A919-B018158D8DB7}|BWA_TemplatedComponentExample.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D10EC147-015D-4ABD-A919-B018158D8DB7}|BWA_TemplatedComponentExample.csproj|c:\\shuja\\code examples\\blazorbyshujaudemycode\\blazor-net8\\blazorecommerceexamples\\bwa_templatedcomponentexample\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D10EC147-015D-4ABD-A919-B018158D8DB7}|BWA_TemplatedComponentExample.csproj|solutionrelative:pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,7 +34,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "app.css",
               "DocumentMoniker": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BlazorEcommerceExamples\\BWA_TemplatedComponentExample\\wwwroot\\css\\app.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\app.css",
@@ -47,7 +47,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Home.razor",
               "DocumentMoniker": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BlazorEcommerceExamples\\BWA_TemplatedComponentExample\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "Pages\\Home.razor",
@@ -60,7 +60,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BlazorEcommerceExamples\\BWA_TemplatedComponentExample\\Models\\Product.cs",
               "RelativeDocumentMoniker": "Models\\Product.cs",
