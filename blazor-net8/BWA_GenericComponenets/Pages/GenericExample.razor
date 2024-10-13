@@ -1,0 +1,27 @@
+﻿@page "/generics"
+@using BWA_GenericComponenets.Models
+@using BWA_GenericComponenets.Components
+<h3>GenericExample</h3>
+
+<GenericDataTable Title="People" TItem="Person" Items="people" Headers="headers" />
+<br />
+<GenericDataTable Title="Products" TItem="Product" Items="products" Headers="productHeaders" />
+
+@code {
+
+    private List<Person> people = new List<Person>
+    {
+        new Person { Name = "Haniya", Age = 30 },
+        new Person { Name = "Ibrahim", Age = 25 },
+        new Person { Name = "Alishba", Age = 35 }
+    };
+
+    private List<string> headers = new List<string> { "Name", "Age" };
+
+    private List<string> productHeaders = new List<string> { "Product ID", "Product Name", "Price" };
+    private List<Product> products = new List<Product>
+    {
+        new Product { Id = 101, Name = "Laptop", Price = 1000 },
+        new Product { Id = 102, Name = "Smartphone", Price = 600 }
+    };
+}

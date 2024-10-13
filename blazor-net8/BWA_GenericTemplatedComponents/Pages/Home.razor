@@ -1,0 +1,15 @@
+﻿@page "/"
+@using BWA_GenericTemplatedComponents.Components
+<PageTitle>Home</PageTitle>
+
+<h1>Hello, world!</h1>
+
+<h1>Welcome to Generic Components</h1>
+
+
+<GenericList TItem="string" Items="stringItems" />
+<GenericList TItem="int" Items="intItems" />
+@code {
+    private List<string> stringItems = new List<string> { "Item 1", "Item 2", "Item 3" };
+    private List<int> intItems = new List<int> { 1, 2, 3 };
+}
