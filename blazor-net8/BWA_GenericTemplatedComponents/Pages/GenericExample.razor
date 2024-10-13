@@ -1,0 +1,55 @@
+﻿@page "/generics"
+@using BWA_GenericTemplatedComponents.Components
+
+<h1>Generic Data Table Example</h1>
+
+@code {
+    private List<string> headers = new List<string> { "ID", "Name", "Age" };
+    private List<Person> people = new List<Person>
+    {
+        new Person { Id = 1, Name = "Ibrahim ", Age = 30 },
+        new Person { Id = 2, Name = "Usman Ismail", Age = 25 },
+        new Person { Id = 3, Name = "Ali Rehman", Age = 40 }
+    };
+
+    private List<string> productHeaders = new List<string> { "Product ID", "Product Name", "Price" };
+    private List<Product> products = new List<Product>
+    {
+        new Product { Id = 101, Name = "Laptop", Price = 1000 },
+        new Product { Id = 102, Name = "Smartphone", Price = 600 }
+    };
+}
+
+<!-- Data table for Person -->
+<GenericDataTable TItem="Person" Items="people" Headers="headers">
+    <RowTemplate Context="person">
+        <td>@person.Id</td>
+        <td>@person.Name</td>
+        <td>@person.Age</td>
+    </RowTemplate>
+</GenericDataTable>
+
+<!-- Data table for Product -->
+<GenericDataTable TItem="Product" Items="products" Headers="productHeaders">
+    <RowTemplate Context="product">
+        <td>@product.Id</td>
+        <td>@product.Name</td>
+        <td>@product.Price</td>
+    </RowTemplate>
+</GenericDataTable>
+
+@code {
+    public class Person
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public int Age { get; set; }
+    }
+
+    public class Product
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public decimal Price { get; set; }
+    }
+}

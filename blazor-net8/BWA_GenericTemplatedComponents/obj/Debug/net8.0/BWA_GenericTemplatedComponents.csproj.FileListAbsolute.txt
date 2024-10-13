@@ -817,6 +817,7 @@ C:\Shuja\Code Examples\BlazorByShujaUdemyCode\blazor-net8\BWA_GenericTemplatedCo
 C:\Shuja\Code Examples\BlazorByShujaUdemyCode\blazor-net8\BWA_GenericTemplatedComponents\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.BWA_GenericTemplatedComponents.props
 C:\Shuja\Code Examples\BlazorByShujaUdemyCode\blazor-net8\BWA_GenericTemplatedComponents\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.BWA_GenericTemplatedComponents.props
 C:\Shuja\Code Examples\BlazorByShujaUdemyCode\blazor-net8\BWA_GenericTemplatedComponents\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Shuja\Code Examples\BlazorByShujaUdemyCode\blazor-net8\BWA_GenericTemplatedComponents\obj\Debug\net8.0\scopedcss\Components\GenericDataTable.razor.rz.scp.css
 C:\Shuja\Code Examples\BlazorByShujaUdemyCode\blazor-net8\BWA_GenericTemplatedComponents\obj\Debug\net8.0\scopedcss\Layout\MainLayout.razor.rz.scp.css
 C:\Shuja\Code Examples\BlazorByShujaUdemyCode\blazor-net8\BWA_GenericTemplatedComponents\obj\Debug\net8.0\scopedcss\Layout\NavMenu.razor.rz.scp.css
 C:\Shuja\Code Examples\BlazorByShujaUdemyCode\blazor-net8\BWA_GenericTemplatedComponents\obj\Debug\net8.0\scopedcss\bundle\BWA_GenericTemplatedComponents.styles.css

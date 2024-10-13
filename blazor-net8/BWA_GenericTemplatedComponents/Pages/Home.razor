@@ -4,11 +4,21 @@
 
 <h1>Hello, world!</h1>
 
-<h1>Welcome to Generic Components</h1>
+<h1>Generic Templated List Example</h1>
 
+<!-- Rendering a list of strings with a strong tag -->
+<GenericList TItem="string" Items="stringItems">
+    <ItemTemplate Context="item">
+        <strong>@item</strong>
+    </ItemTemplate>
+</GenericList>
 
-<GenericList TItem="string" Items="stringItems" />
-<GenericList TItem="int" Items="intItems" />
+<!-- Rendering a list of integers with emphasis on the number -->
+<GenericList TItem="int" Items="intItems">
+    <ItemTemplate Context="item">
+        <em>Number: @item</em>
+    </ItemTemplate>
+</GenericList>
 @code {
     private List<string> stringItems = new List<string> { "Item 1", "Item 2", "Item 3" };
     private List<int> intItems = new List<int> { 1, 2, 3 };

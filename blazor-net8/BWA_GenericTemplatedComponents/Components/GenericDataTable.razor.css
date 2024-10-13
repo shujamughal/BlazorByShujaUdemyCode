@@ -1,0 +1,29 @@
+﻿.fancy-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+    .fancy-table th, .fancy-table td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+
+    .fancy-table th {
+        background-color: #4CAF50;
+        color: white;
+        font-weight: bold;
+    }
+
+    .fancy-table tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    .fancy-table tr:hover {
+        background-color: #ddd;
+    }
+
+    .fancy-table td {
+        font-size: 14px;
+    }

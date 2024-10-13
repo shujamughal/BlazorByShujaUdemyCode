@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "BWA_GenericTemplatedComponents",
   "resources": {
-    "hash": "sha256-X+5hMTjUtT6Omnk3jRioD5eQZjYurNio5aBEqgn5/g0=",
+    "hash": "sha256-6bKBBb5CuYd2zX4Y2pDSq6GXh/yiT+uU1NsAQU0GSMw=",
     "jsModuleNative": {
       "dotnet.native.8.0.8.qobnsk73i4.js": "sha256-juC5sA7gHTLXFEhAKgdM2/RavswpwCtDfjYGsAz2FXg="
     },
@@ -208,10 +208,10 @@
       "mscorlib.wasm": "sha256-Gz8PyW2/fwihe5ul81OwmRUrU71r+KtbyRw6xlOGD+Q=",
       "netstandard.wasm": "sha256-jMTqIQzoDS810lyhZpMO5eEC36EzntXqSVn+2qwkOMQ=",
       "System.Private.CoreLib.wasm": "sha256-NFj5WE5VLP2LptZIRJCUIc1AMk06FmxpsSILfPISwAw=",
-      "BWA_GenericTemplatedComponents.wasm": "sha256-dwquuYQezIuRFHadW9FmaRTQ2eX/I1gyVFOs0yyW2FM="
+      "BWA_GenericTemplatedComponents.wasm": "sha256-L+FT6uGjbd0mJuDzFDn1heiHrdsgLkl9/Rr8VkBPKBU="
     },
     "pdb": {
-      "BWA_GenericTemplatedComponents.pdb": "sha256-+hkm7qb64zJoHe2wwow157rRpK6+sWPz3GYJoztJNbQ="
+      "BWA_GenericTemplatedComponents.pdb": "sha256-iTEu7wIPwif/RKkVrAY5DDnOjLfun7hCX8H9SenkEQs="
     }
   },
   "cacheBootResources": true,

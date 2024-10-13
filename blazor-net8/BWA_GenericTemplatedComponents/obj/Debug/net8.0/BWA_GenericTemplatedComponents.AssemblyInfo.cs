@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BWA_GenericTemplatedComponents")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5dc8f231dac915466bb8262b0ec979436671704c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+860f46247d706a5803ebb63e4aa166e8469f9bbd")]
 [assembly: System.Reflection.AssemblyProductAttribute("BWA_GenericTemplatedComponents")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BWA_GenericTemplatedComponents")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

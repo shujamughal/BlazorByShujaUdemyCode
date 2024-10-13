@@ -4,11 +4,14 @@
 <ul>
     @foreach (var item in Items)
     {
-        <li>@item.ToString()</li>
+        <li>@ItemTemplate(item)</li>
     }
 </ul>
 
 @code {
     [Parameter]
     public List<TItem> Items { get; set; } = new List<TItem>();
+
+    [Parameter]
+    public RenderFragment<TItem> ItemTemplate { get; set; }
 }

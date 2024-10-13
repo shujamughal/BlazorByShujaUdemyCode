@@ -34,6 +34,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Shuja/Code Examples/BlazorByShujaUdemyCode/blazor-net8/BWA_GenericTemplatedComponents/Pages/GenericExample.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VuZXJpY0V4YW1wbGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Shuja/Code Examples/BlazorByShujaUdemyCode/blazor-net8/BWA_GenericTemplatedComponents/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -45,6 +49,10 @@ build_metadata.AdditionalFiles.CssScope =
 [C:/Shuja/Code Examples/BlazorByShujaUdemyCode/blazor-net8/BWA_GenericTemplatedComponents/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Shuja/Code Examples/BlazorByShujaUdemyCode/blazor-net8/BWA_GenericTemplatedComponents/Components/GenericDataTable.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xHZW5lcmljRGF0YVRhYmxlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-mh5vo8xaik
 
 [C:/Shuja/Code Examples/BlazorByShujaUdemyCode/blazor-net8/BWA_GenericTemplatedComponents/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
