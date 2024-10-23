@@ -1,0 +1,10 @@
+﻿@typeparam TItem
+<div>
+    @ChildContent(Value)
+</div>
+@code {
+    [Parameter]
+    public TItem Value { get; set; }
+[Parameter]
+public RenderFragment<TItem> ChildContent { get; set; }
+}

@@ -1,0 +1,87 @@
+﻿@page "/job-application"
+@using System.ComponentModel.DataAnnotations
+@inject HttpClient Http
+
+<h3>Job Application Form</h3>
+
+<EditForm Model="@jobApplication" OnValidSubmit="SubmitApplication">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div>
+        <label for="name">Name:</label>
+        <InputText id="name" @bind-Value="jobApplication.Name" />
+    </div>
+
+    <div>
+        <label for="email">Email:</label>
+        <InputText id="email" @bind-Value="jobApplication.Email" />
+    </div>
+
+    <div>
+        <label for="position">Position Applied For:</label>
+        <InputText id="position" @bind-Value="jobApplication.Position" />
+    </div>
+
+    <div>
+        <label for="resume">Upload Resume:</label>
+        <InputFile OnChange="UploadFile" />
+    </div>
+
+    <button type="submit">Submit Application</button>
+</EditForm>
+
+@if (!string.IsNullOrEmpty(uploadResult))
+{
+    <p class="text-success">@uploadResult</p>
+}
+
+@code {
+    private JobApplication jobApplication = new JobApplication();
+    private IBrowserFile uploadedFile;
+    private string uploadResult;
+
+    private async Task UploadFile(InputFileChangeEventArgs e)
+    {
+        uploadedFile = e.File;
+    }
+
+    private async Task SubmitApplication()
+    {
+        if (uploadedFile != null)
+        {
+            var content = new MultipartFormDataContent();
+            content.Add(new StringContent(jobApplication.Name), "Name");
+            content.Add(new StringContent(jobApplication.Email), "Email");
+            content.Add(new StringContent(jobApplication.Position), "Position");
+
+            var fileContent = new StreamContent(uploadedFile.OpenReadStream(maxAllowedSize: 10 * 1024 * 1024)); // Max 10 MB
+            fileContent.Headers.ContentType = new System.Net.Http.Headers.MediaTypeHeaderValue(uploadedFile.ContentType);
+            content.Add(fileContent, "Resume", uploadedFile.Name);
+
+            var response = await Http.PostAsync("https://localhost:5001/api/jobapplications", content);
+
+            if (response.IsSuccessStatusCode)
+            {
+                uploadResult = "Application submitted successfully!";
+            }
+            else
+            {
+                uploadResult = "Failed to submit application.";
+            }
+        }
+    }
+
+    public class JobApplication
+    {
+        [Required]
+        public string Name { get; set; }
+
+        [Required]
+        [EmailAddress]
+        public string Email { get; set; }
+
+        [Required]
+        public string Position { get; set; }
+    }
+}

@@ -1,0 +1,132 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BWA_JavascriptInteropExample\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EFFFCC45-F507-427E-A915-8E55C1504198}|BWA_JavascriptInteropExample.csproj|c:\\shuja\\code examples\\blazorbyshujaudemycode\\blazor-net8\\bwa_javascriptinteropexample\\wwwroot\\js\\site2.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{EFFFCC45-F507-427E-A915-8E55C1504198}|BWA_JavascriptInteropExample.csproj|solutionrelative:wwwroot\\js\\site2.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFFFCC45-F507-427E-A915-8E55C1504198}|BWA_JavascriptInteropExample.csproj|c:\\shuja\\code examples\\blazorbyshujaudemycode\\blazor-net8\\bwa_javascriptinteropexample\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFFFCC45-F507-427E-A915-8E55C1504198}|BWA_JavascriptInteropExample.csproj|solutionrelative:pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFFFCC45-F507-427E-A915-8E55C1504198}|BWA_JavascriptInteropExample.csproj|c:\\shuja\\code examples\\blazorbyshujaudemycode\\blazor-net8\\bwa_javascriptinteropexample\\pages\\mycomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFFFCC45-F507-427E-A915-8E55C1504198}|BWA_JavascriptInteropExample.csproj|solutionrelative:pages\\mycomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFFFCC45-F507-427E-A915-8E55C1504198}|BWA_JavascriptInteropExample.csproj|c:\\shuja\\code examples\\blazorbyshujaudemycode\\blazor-net8\\bwa_javascriptinteropexample\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFFFCC45-F507-427E-A915-8E55C1504198}|BWA_JavascriptInteropExample.csproj|solutionrelative:wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFFFCC45-F507-427E-A915-8E55C1504198}|BWA_JavascriptInteropExample.csproj|c:\\shuja\\code examples\\blazorbyshujaudemycode\\blazor-net8\\bwa_javascriptinteropexample\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{EFFFCC45-F507-427E-A915-8E55C1504198}|BWA_JavascriptInteropExample.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFFFCC45-F507-427E-A915-8E55C1504198}|BWA_JavascriptInteropExample.csproj|c:\\shuja\\code examples\\blazorbyshujaudemycode\\blazor-net8\\bwa_javascriptinteropexample\\models\\windowsize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFFFCC45-F507-427E-A915-8E55C1504198}|BWA_JavascriptInteropExample.csproj|solutionrelative:models\\windowsize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WindowSize.cs",
+              "DocumentMoniker": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BWA_JavascriptInteropExample\\Models\\WindowSize.cs",
+              "RelativeDocumentMoniker": "Models\\WindowSize.cs",
+              "ToolTip": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BWA_JavascriptInteropExample\\Models\\WindowSize.cs",
+              "RelativeToolTip": "Models\\WindowSize.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T10:47:34.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "site2.js",
+              "DocumentMoniker": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BWA_JavascriptInteropExample\\wwwroot\\js\\site2.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\site2.js",
+              "ToolTip": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BWA_JavascriptInteropExample\\wwwroot\\js\\site2.js",
+              "RelativeToolTip": "wwwroot\\js\\site2.js",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-20T09:40:45.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BWA_JavascriptInteropExample\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BWA_JavascriptInteropExample\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwBEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-20T08:08:09.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MyComponent.razor",
+              "DocumentMoniker": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BWA_JavascriptInteropExample\\Pages\\MyComponent.razor",
+              "RelativeDocumentMoniker": "Pages\\MyComponent.razor",
+              "ToolTip": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BWA_JavascriptInteropExample\\Pages\\MyComponent.razor",
+              "RelativeToolTip": "Pages\\MyComponent.razor",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-20T09:39:45.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BWA_JavascriptInteropExample\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "wwwroot\\index.html",
+              "ToolTip": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BWA_JavascriptInteropExample\\wwwroot\\index.html",
+              "RelativeToolTip": "wwwroot\\index.html",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-20T08:53:39.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BWA_JavascriptInteropExample\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "Pages\\Home.razor",
+              "ToolTip": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BWA_JavascriptInteropExample\\Pages\\Home.razor",
+              "RelativeToolTip": "Pages\\Home.razor",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAwCAAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-20T08:11:51.758Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 101,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

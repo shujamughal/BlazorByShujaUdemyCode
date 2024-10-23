@@ -1,0 +1,36 @@
+﻿@page "/cartsummary"
+@using BWA_databindingExample.Models
+
+<h3>Cart Summary</h3>
+@if (CartProducts.Count == 0)
+{
+    <p>Your cart is empty.</p>
+}
+else
+{
+    <table>
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var product in CartProducts)
+            {
+                <tr>
+                    <td>@product.Name</td>
+                    <td>@product.Quantity</td>
+                    <td>@(product.Quantity * product.Price)</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <p>Total: $@CartProducts.Sum(p => p.Quantity * p.Price)</p>
+}
+
+@code {
+    [Parameter]
+    public List<Product> CartProducts { get; set; } = new List<Product>();
+}

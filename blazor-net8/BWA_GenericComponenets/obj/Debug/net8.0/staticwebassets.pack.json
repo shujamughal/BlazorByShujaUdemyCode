@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BWA_GenericComponenets\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BWA_GenericComponenets\\obj\\Debug\\net8.0\\compressed\\88zwtkpjng.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BWA_GenericComponenets\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BWA_GenericComponenets.styles.css",
+      "PackagePath": "staticwebassets\\BWA_GenericComponenets.styles.css"
+    },
+    {
+      "Id": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BWA_GenericComponenets\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BWA_GenericComponenets\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BWA_GenericComponenets\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BWA_GenericComponenets\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BWA_GenericComponenets\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BWA_GenericComponenets\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BWA_GenericComponenets\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BWA_GenericComponenets.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.BWA_GenericComponenets.props",
+      "PackagePath": "build\\BWA_GenericComponenets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BWA_GenericComponenets.props",
+      "PackagePath": "buildMultiTargeting\\BWA_GenericComponenets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.BWA_GenericComponenets.props",
+      "PackagePath": "buildTransitive\\BWA_GenericComponenets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

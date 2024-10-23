@@ -1,0 +1,33 @@
+﻿@using System.ComponentModel.DataAnnotations
+<EditForm Model="@user">
+    <DataAnnotationsValidator />
+    <label for="firstName">First Name:</label>
+    <InputText id="firstName" @bind-Value="user.FirstName" />
+
+    <label for="email">Email:</label>
+    <InputText id="email" @bind-Value="user.Email" />
+
+    <label for="age">Age:</label>
+    <InputNumber id="age" @bind-Value="user.Age" />
+
+    <button type="submit">Register</button>
+</EditForm>
+
+@code {
+    private User user = new User();
+
+    public class User
+    {
+        [Required]
+        [StringLength(100, MinimumLength = 2)]
+        public string FirstName { get; set; }
+
+        [Required]
+        [EmailAddress]
+        public string Email { get; set; }
+
+        [Range(18, 100)]
+        public int Age { get; set; }
+    }
+
+}

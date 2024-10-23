@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BWA_ChildComponentReferenceExample")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7d13c1bbff998c78d269968af9d6427a1e132f88")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c348a18415b4bdfd68a6d02a02f5ff05e246f627")]
 [assembly: System.Reflection.AssemblyProductAttribute("BWA_ChildComponentReferenceExample")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BWA_ChildComponentReferenceExample")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

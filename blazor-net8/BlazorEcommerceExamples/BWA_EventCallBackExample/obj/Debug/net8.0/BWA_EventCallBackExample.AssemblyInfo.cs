@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BWA_EventCallBackExample")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bee10c76efca982af6b5660aa60396317ed1f280")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c348a18415b4bdfd68a6d02a02f5ff05e246f627")]
 [assembly: System.Reflection.AssemblyProductAttribute("BWA_EventCallBackExample")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BWA_EventCallBackExample")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

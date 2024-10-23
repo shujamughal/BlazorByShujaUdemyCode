@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "BWA_EventCallBackExample",
   "resources": {
-    "hash": "sha256-heF6zYDN5y/QYv0ea0wFT8KZQNyA/fl0zgK+k5QhXXs=",
+    "hash": "sha256-ntHstRd1sV07VX1/UjV/1SIJbkfP7O8mJq07ksoSI1k=",
     "jsModuleNative": {
       "dotnet.native.8.0.8.qobnsk73i4.js": "sha256-juC5sA7gHTLXFEhAKgdM2/RavswpwCtDfjYGsAz2FXg="
     },
@@ -208,10 +208,10 @@
       "mscorlib.wasm": "sha256-Gz8PyW2/fwihe5ul81OwmRUrU71r+KtbyRw6xlOGD+Q=",
       "netstandard.wasm": "sha256-jMTqIQzoDS810lyhZpMO5eEC36EzntXqSVn+2qwkOMQ=",
       "System.Private.CoreLib.wasm": "sha256-NFj5WE5VLP2LptZIRJCUIc1AMk06FmxpsSILfPISwAw=",
-      "BWA_EventCallBackExample.wasm": "sha256-VMbGhzQ7Lu4OI2m1+atv4yqQkEOWft8XNbMHMzXBe3o="
+      "BWA_EventCallBackExample.wasm": "sha256-AST8azmbXzD+4z2ahnMT6C6Ud96hRGe5ji/8ejR3cfE="
     },
     "pdb": {
-      "BWA_EventCallBackExample.pdb": "sha256-raoMwRyklRx6kKk8nJsv+jsWNcdyTo4oQAfv0j2Y5Ac="
+      "BWA_EventCallBackExample.pdb": "sha256-9nybFsUqXWZnIqiCrv18lBkjl6B3tMac/IFAo1tSwuo="
     }
   },
   "cacheBootResources": true,

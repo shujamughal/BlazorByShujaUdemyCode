@@ -1,0 +1,14 @@
+﻿@inject IJSRuntime js
+<h3>Document component</h3>
+<button @onclick="SetTitle">Set Title</button>
+
+@code {
+
+    [Parameter] public string Title { get; set; }
+    
+    private async Task SetTitle()
+    {
+        await js.InvokeVoidAsync("bweInterop.setDocumentTitle", Title);
+    }
+    
+}

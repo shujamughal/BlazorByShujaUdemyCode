@@ -9,10 +9,21 @@ Welcome to your new app.
 
 <h1>Welcome to Generic Components</h1>
 
+<MyGenericTemplatedComponent TItem="int" Value=123>
+
+<p>@context</p>
+</MyGenericTemplatedComponent>
+
+<MyGenericTemplatedComponent TItem="string" Value="Data">
+ <h1>@context</h1>   
+
+</MyGenericTemplatedComponent>
+
 
 <GenericList TItem="string" Items="stringItems" />
 <GenericList TItem="int" Items="intItems" />
 @code {
+    public string Data { get; set; } = "Some Value";
     private List<string> stringItems = new List<string> { "Item 1", "Item 2", "Item 3" };
     private List<int> intItems = new List<int> { 1, 2, 3 };
 }

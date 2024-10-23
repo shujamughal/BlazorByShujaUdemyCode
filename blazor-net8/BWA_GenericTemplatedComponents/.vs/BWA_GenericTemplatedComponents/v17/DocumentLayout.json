@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BWA_GenericTemplatedComponents\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F334A917-1D0B-4676-B957-1D44E1B45AB6}|BWA_GenericTemplatedComponents.csproj|c:\\shuja\\code examples\\blazorbyshujaudemycode\\blazor-net8\\bwa_generictemplatedcomponents\\components\\genericlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F334A917-1D0B-4676-B957-1D44E1B45AB6}|BWA_GenericTemplatedComponents.csproj|solutionrelative:components\\genericlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F334A917-1D0B-4676-B957-1D44E1B45AB6}|BWA_GenericTemplatedComponents.csproj|c:\\shuja\\code examples\\blazorbyshujaudemycode\\blazor-net8\\bwa_generictemplatedcomponents\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F334A917-1D0B-4676-B957-1D44E1B45AB6}|BWA_GenericTemplatedComponents.csproj|solutionrelative:pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F334A917-1D0B-4676-B957-1D44E1B45AB6}|BWA_GenericTemplatedComponents.csproj|c:\\shuja\\code examples\\blazorbyshujaudemycode\\blazor-net8\\bwa_generictemplatedcomponents\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F334A917-1D0B-4676-B957-1D44E1B45AB6}|BWA_GenericTemplatedComponents.csproj|solutionrelative:pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F334A917-1D0B-4676-B957-1D44E1B45AB6}|BWA_GenericTemplatedComponents.csproj|c:\\shuja\\code examples\\blazorbyshujaudemycode\\blazor-net8\\bwa_generictemplatedcomponents\\pages\\counter.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F334A917-1D0B-4676-B957-1D44E1B45AB6}|BWA_GenericTemplatedComponents.csproj|solutionrelative:pages\\counter.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F334A917-1D0B-4676-B957-1D44E1B45AB6}|BWA_GenericTemplatedComponents.csproj|c:\\shuja\\code examples\\blazorbyshujaudemycode\\blazor-net8\\bwa_generictemplatedcomponents\\pages\\genericexample.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F334A917-1D0B-4676-B957-1D44E1B45AB6}|BWA_GenericTemplatedComponents.csproj|solutionrelative:pages\\genericexample.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F334A917-1D0B-4676-B957-1D44E1B45AB6}|BWA_GenericTemplatedComponents.csproj|c:\\shuja\\code examples\\blazorbyshujaudemycode\\blazor-net8\\bwa_generictemplatedcomponents\\components\\genericlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F334A917-1D0B-4676-B957-1D44E1B45AB6}|BWA_GenericTemplatedComponents.csproj|solutionrelative:components\\genericlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F334A917-1D0B-4676-B957-1D44E1B45AB6}|BWA_GenericTemplatedComponents.csproj|c:\\shuja\\code examples\\blazorbyshujaudemycode\\blazor-net8\\bwa_generictemplatedcomponents\\components\\genericdatatable.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F334A917-1D0B-4676-B957-1D44E1B45AB6}|BWA_GenericTemplatedComponents.csproj|solutionrelative:components\\genericdatatable.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F334A917-1D0B-4676-B957-1D44E1B45AB6}|BWA_GenericTemplatedComponents.csproj|c:\\shuja\\code examples\\blazorbyshujaudemycode\\blazor-net8\\bwa_generictemplatedcomponents\\components\\genericdatatable.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{F334A917-1D0B-4676-B957-1D44E1B45AB6}|BWA_GenericTemplatedComponents.csproj|solutionrelative:components\\genericdatatable.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{F334A917-1D0B-4676-B957-1D44E1B45AB6}|BWA_GenericTemplatedComponents.csproj|c:\\shuja\\code examples\\blazorbyshujaudemycode\\blazor-net8\\bwa_generictemplatedcomponents\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F334A917-1D0B-4676-B957-1D44E1B45AB6}|BWA_GenericTemplatedComponents.csproj|solutionrelative:pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F334A917-1D0B-4676-B957-1D44E1B45AB6}|BWA_GenericTemplatedComponents.csproj|c:\\shuja\\code examples\\blazorbyshujaudemycode\\blazor-net8\\bwa_generictemplatedcomponents\\pages\\genericexample.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F334A917-1D0B-4676-B957-1D44E1B45AB6}|BWA_GenericTemplatedComponents.csproj|solutionrelative:pages\\genericexample.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F334A917-1D0B-4676-B957-1D44E1B45AB6}|BWA_GenericTemplatedComponents.csproj|c:\\shuja\\code examples\\blazorbyshujaudemycode\\blazor-net8\\bwa_generictemplatedcomponents\\components\\genericdatatable.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F334A917-1D0B-4676-B957-1D44E1B45AB6}|BWA_GenericTemplatedComponents.csproj|solutionrelative:components\\genericdatatable.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,20 +46,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "Counter.razor.cs",
+              "DocumentMoniker": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BWA_GenericTemplatedComponents\\Pages\\Counter.razor.cs",
+              "RelativeDocumentMoniker": "Pages\\Counter.razor.cs",
+              "ToolTip": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BWA_GenericTemplatedComponents\\Pages\\Counter.razor.cs",
+              "RelativeToolTip": "Pages\\Counter.razor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T08:43:58.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Counter.razor",
+              "DocumentMoniker": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BWA_GenericTemplatedComponents\\Pages\\Counter.razor",
+              "RelativeDocumentMoniker": "Pages\\Counter.razor",
+              "ToolTip": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BWA_GenericTemplatedComponents\\Pages\\Counter.razor",
+              "RelativeToolTip": "Pages\\Counter.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-14T08:43:38.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "GenericExample.razor",
               "DocumentMoniker": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BWA_GenericTemplatedComponents\\Pages\\GenericExample.razor",
               "RelativeDocumentMoniker": "Pages\\GenericExample.razor",
               "ToolTip": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BWA_GenericTemplatedComponents\\Pages\\GenericExample.razor",
               "RelativeToolTip": "Pages\\GenericExample.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACQAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-13T08:15:26.017Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "GenericDataTable.razor.css",
               "DocumentMoniker": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BWA_GenericTemplatedComponents\\Components\\GenericDataTable.razor.css",
               "RelativeDocumentMoniker": "Components\\GenericDataTable.razor.css",
@@ -59,25 +93,24 @@
               "RelativeToolTip": "Components\\GenericDataTable.razor.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-13T08:14:31.19Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-13T08:14:31.19Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "GenericDataTable.razor",
               "DocumentMoniker": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BWA_GenericTemplatedComponents\\Components\\GenericDataTable.razor",
               "RelativeDocumentMoniker": "Components\\GenericDataTable.razor",
               "ToolTip": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BWA_GenericTemplatedComponents\\Components\\GenericDataTable.razor",
               "RelativeToolTip": "Components\\GenericDataTable.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAA8AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-13T08:12:40.192Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Home.razor",
               "DocumentMoniker": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BWA_GenericTemplatedComponents\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "Pages\\Home.razor",
@@ -85,12 +118,11 @@
               "RelativeToolTip": "Pages\\Home.razor",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAAAsAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-12T16:58:42.942Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-12T16:58:42.942Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "GenericList.razor",
               "DocumentMoniker": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BWA_GenericTemplatedComponents\\Components\\GenericList.razor",
               "RelativeDocumentMoniker": "Components\\GenericList.razor",

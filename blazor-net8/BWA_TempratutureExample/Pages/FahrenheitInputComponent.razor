@@ -1,0 +1,13 @@
+﻿@code {
+    [Parameter]
+    public double FahrenheitValue { get; set; }
+
+    [Parameter]
+    public EventCallback<double> FahrenheitValueChanged { get; set; }
+}
+
+<div>
+    <label for="fahrenheitInput">Fahrenheit: </label>
+    <input type="number" id="fahrenheitInput" @bind-value="FahrenheitValue" />
+<p>@FahrenheitValue</p>
+</div>

@@ -1,0 +1,30 @@
+﻿@page "/mc"
+
+@inject IJSRuntime JSRuntime
+
+<button @onclick="CallJsWithComponentReference">Pass Component Reference to JS</button>
+
+@code {
+    private DotNetObjectReference<MyComponent>? objectReference;
+
+    protected override void OnInitialized()
+    {
+        objectReference = DotNetObjectReference.Create(this);
+    }
+
+    private async Task CallJsWithComponentReference()
+    {
+        await JSRuntime.InvokeVoidAsync("receiveComponentReference", objectReference);
+    }
+
+    [JSInvokable]
+    public void ShowComponentMessage()
+    {
+        Console.WriteLine("Instance method called from JS");
+    }
+
+    public void Dispose()
+    {
+        objectReference?.Dispose();
+    }
+}

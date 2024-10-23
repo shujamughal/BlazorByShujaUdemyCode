@@ -1,0 +1,50 @@
+﻿@page "/"
+
+<h3>Temperature Converter</h3>
+<button @onclick="clicked1">show change</button>
+<CelsiusInputComponent @bind-CelsiusValue="@CelsiusTemperature"></CelsiusInputComponent>
+<FahrenheitInputComponent @bind-FahrenheitValue="@FahrenheitTemperature"></FahrenheitInputComponent>
+<h1>@_celsiusTemperature</h1>
+<h1>@_fahrenheitTemperature</h1>
+<h2>@CelsiusTemperature</h2>
+<h2>@FahrenheitTemperature</h2>
+@code {
+    private double _celsiusTemperature;
+    private double _fahrenheitTemperature;
+
+    public void clicked1()
+    {
+        CelsiusTemperature = CelsiusTemperature;
+    }
+    public double CelsiusTemperature
+    {
+        get => _celsiusTemperature;
+        set
+        {
+            if (_celsiusTemperature != value)
+            {
+                _celsiusTemperature = value;
+                // Convert Celsius to Fahrenheit
+                _fahrenheitTemperature = (_celsiusTemperature * 9 / 5) + 32;
+                StateHasChanged(); // Ensure UI is refreshed
+
+            }
+        }
+    }
+
+    public double FahrenheitTemperature
+    {
+        get => _fahrenheitTemperature;
+        set
+        {
+            if (_fahrenheitTemperature != value)
+            {
+                _fahrenheitTemperature = value;
+                // Convert Fahrenheit to Celsius
+                _celsiusTemperature = (_fahrenheitTemperature - 32) * 5 / 9;
+                StateHasChanged(); // Ensure UI is refreshed
+
+            }
+        }
+    }
+}

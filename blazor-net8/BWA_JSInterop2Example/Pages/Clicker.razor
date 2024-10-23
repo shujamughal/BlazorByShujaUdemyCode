@@ -1,0 +1,40 @@
+﻿@page "/clicker"
+@using BWA_JSInterop2Example.Services
+@inject IJSRuntime JSRuntime
+
+<h3>Click Event Example</h3>
+
+<button id="trackButton">Click Me!</button>
+<button id="trackButtonDetails">Click Me for Details!</button>
+<button id="trackButtonDetails2">Click Me and Pass Details!</button>
+<button id="getClickDetails">Get Click Details from .NET</button>
+<button id="getSimpleMessage">Get Simple Message from .NET</button> <!-- New Button -->
+<div id="messageDisplay"></div>
+<div id="simpleMessageDisplay"></div> <!-- New Div to display simple message -->
+
+@code {
+    private DotNetObjectReference<ClickHandler>? clickHandlerRef;
+
+    protected override void OnInitialized()
+    {
+        clickHandlerRef = DotNetObjectReference.Create(new ClickHandler());
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await JSRuntime.InvokeVoidAsync("initializeClickTracker", clickHandlerRef);
+            await JSRuntime.InvokeVoidAsync("initializeDetailedClickTracker", clickHandlerRef);
+            await JSRuntime.InvokeVoidAsync("initializeClickTrackerWithModel", clickHandlerRef);
+            await JSRuntime.InvokeVoidAsync("initializeGetClickDetails", clickHandlerRef);
+            await JSRuntime.InvokeVoidAsync("initializeGetSimpleMessage", clickHandlerRef); // New JS function
+
+        }
+    }
+
+    public void Dispose()
+    {
+        clickHandlerRef?.Dispose();
+    }
+}

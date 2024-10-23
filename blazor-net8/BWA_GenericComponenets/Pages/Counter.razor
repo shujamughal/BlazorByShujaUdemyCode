@@ -1,5 +1,5 @@
 ﻿@page "/counter"
-
+@inject NavigationManager nv
 <PageTitle>Counter</PageTitle>
 
 <h1>Counter</h1>
@@ -13,6 +13,6 @@
 
     private void IncrementCount()
     {
-        currentCount++;
+        nv.NavigateTo("/weather");
     }
 }

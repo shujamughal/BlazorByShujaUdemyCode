@@ -1,0 +1,13 @@
+﻿@code {
+    [Parameter]
+    public double CelsiusValue { get; set; }
+
+    [Parameter]
+    public EventCallback<double> CelsiusValueChanged { get; set; }
+}
+
+<div>
+    <label for="celsiusInput">Celsius: </label>
+    <input type="number" id="celsiusInput" @bind-value="CelsiusValue"  />
+<p>@CelsiusValue</p>
+</div>

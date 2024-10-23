@@ -1,0 +1,41 @@
+﻿@page "/mc"
+@using BWA_JavascriptInteropExample.Models
+
+<h3>MyComponent</h3>
+<button onclick="callDotNetStaticMethod()">Call .NET Static Method</button>
+
+<button onclick="callDotNetStaticNumberMethod(4)">Call .NET Static Number Method</button>
+<p>The value is  <span id="s1"></span></p>
+
+<button onclick="callDotNetAsyncStaticMethod()">Call .NET Async Static Method</button>
+
+@code {
+
+    [JSInvokable]
+    public static string GetMessageFromDotNet()
+    {
+        return "Message from .NET static method";
+    }
+
+    [JSInvokable]
+    public static int ReturnNumberFromDotNet(int i)
+    {
+        return i * i;
+    }
+
+
+    [JSInvokable]
+    public static async Task<string> GetAsyncMessageFromDotNet()
+    {
+        await Task.Delay(1000);
+        return "Async message from .NET";
+    }
+
+    private WindowSize windowSize = new WindowSize();
+    [JSInvokable]
+    public void GetWindowSize(WindowSize newWindowSize)
+    {
+        windowSize = newWindowSize;
+        StateHasChanged();
+    }
+}

@@ -12,8 +12,11 @@
     @foreach (var product in Products)
     {
         <div class="col-md-4 mb-4">
-                <ProductCard Product="product" OnAddToCart="HandleAddToCart"  />
-        </div>
+            <CascadingValue Value="product">
+                <ProductCard  OnAddToCart="HandleAddToCart"  />
+        </CascadingValue>
+
+            </div>
     }
 </div>
 

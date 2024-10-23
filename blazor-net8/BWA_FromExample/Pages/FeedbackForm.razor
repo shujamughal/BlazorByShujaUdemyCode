@@ -1,0 +1,33 @@
+﻿@page "/feedback"
+@using System.ComponentModel.DataAnnotations
+@using BWA_FromExample.Services
+<EditForm Model="@feedback" OnValidSubmit="HandleSubmit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <label for="name">Name:</label>
+    <InputText id="name" @bind-Value="feedback.Name" />
+
+    <label for="comments">Comments:</label>
+    <InputTextArea id="comments" @bind-Value="feedback.Comments" />
+
+    <button type="submit">Submit</button>
+</EditForm>
+
+@code {
+    private Feedback feedback = new Feedback();
+
+    private void HandleSubmit()
+    {
+        // Process form submission
+        
+    }
+
+    public class Feedback
+    {
+        [Required]
+        public string Name { get; set; }
+
+        public string Comments { get; set; }
+    }
+}

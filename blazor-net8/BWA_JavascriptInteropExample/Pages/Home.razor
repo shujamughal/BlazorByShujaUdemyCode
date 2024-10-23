@@ -1,0 +1,58 @@
+﻿@page "/"
+@inject IJSRuntime JSRuntime
+<button @onclick="CallJsFunction">Call JS Function</button>
+<button @onclick="Show">Show Alert</button>
+<button @onclick="LogMessage">Log Message</button>
+<p>Current Date and Time: @currentDateTime</p>
+<button @onclick="GetDate">Get Date and Time</button>
+
+<p>Numbers: @(numbers != null ? string.Join(", ", numbers) : "No numbers yet")</p>
+<input type="number" @bind=@FirstNumber />
+<input type="number" @bind-value=SecondNumber />
+<button @onclick="GetNumbers">Get Numbers</button>
+
+
+<PageTitle>Home</PageTitle>
+
+<h1>Hello, world!</h1>
+<h2>Result: @result</h2>
+
+<button @onclick="AddNumbers">Add first and second</button>
+
+Welcome to your new app.
+
+@code {
+    public int FirstNumber { get; set; }
+    public int SecondNumber { get; set; }
+    private string currentDateTime;
+    private int[] numbers;
+    private int result;
+
+    private async Task AddNumbers()
+    {
+        result = await JSRuntime.InvokeAsync<int>("addNumbers", FirstNumber, SecondNumber);
+    }
+    //private int[] numbers = Array.Empty<int>(); // Initialize with an empty array
+
+    private async Task GetNumbers()
+    {
+        numbers = await JSRuntime.InvokeAsync<int[]>("getNumbersArray");
+    }
+    private async Task GetDate()
+    {
+        currentDateTime = await JSRuntime.InvokeAsync<string>("getCurrentDate");
+    }
+    private async Task CallJsFunction()
+    {
+        await JSRuntime.InvokeVoidAsync("alert", "Hello from Blazor!");
+    }
+    private async Task Show()
+    {
+        await JSRuntime.InvokeVoidAsync("showAlert", "Hello from Blazor!");
+    }
+    private async Task LogMessage()
+    {
+        await JSRuntime.InvokeVoidAsync("logToConsole", "Message from Blazor!");
+    }
+
+}
