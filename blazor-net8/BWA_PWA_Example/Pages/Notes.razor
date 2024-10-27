@@ -1,0 +1,32 @@
+﻿@page "/notes"
+
+<h3>Notes</h3>
+
+<div>
+    <input @bind="newNote" placeholder="Enter a note" />
+    <button @onclick="AddNote">Add Note</button>
+</div>
+
+<ul>
+    @foreach (var note in notes)
+    {
+        <li>@note</li>
+    }
+</ul>
+
+@code {
+    private List<string> notes = new List<string>();
+    private string newNote;
+
+    private void AddNote()
+    {
+        if (!string.IsNullOrWhiteSpace(newNote))
+        {
+            notes.Add(newNote);
+            newNote = string.Empty;
+        }
+    }
+
+
+    
+}
