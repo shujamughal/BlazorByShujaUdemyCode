@@ -1,0 +1,227 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BWA_PWA_Example - WithDatabase\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8FCDB2ED-77F4-489A-AF5F-B2270B5D6D80}|BWA_PWA_Example.csproj|c:\\shuja\\code examples\\blazorbyshujaudemycode\\blazor-net8\\bwa_pwa_example - withdatabase\\pages\\noteswithdb.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8FCDB2ED-77F4-489A-AF5F-B2270B5D6D80}|BWA_PWA_Example.csproj|solutionrelative:pages\\noteswithdb.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FCDB2ED-77F4-489A-AF5F-B2270B5D6D80}|BWA_PWA_Example.csproj|c:\\shuja\\code examples\\blazorbyshujaudemycode\\blazor-net8\\bwa_pwa_example - withdatabase\\models\\repositories\\noterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FCDB2ED-77F4-489A-AF5F-B2270B5D6D80}|BWA_PWA_Example.csproj|solutionrelative:models\\repositories\\noterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FCDB2ED-77F4-489A-AF5F-B2270B5D6D80}|BWA_PWA_Example.csproj|c:\\shuja\\code examples\\blazorbyshujaudemycode\\blazor-net8\\bwa_pwa_example - withdatabase\\wwwroot\\js\\localstorage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{8FCDB2ED-77F4-489A-AF5F-B2270B5D6D80}|BWA_PWA_Example.csproj|solutionrelative:wwwroot\\js\\localstorage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FCDB2ED-77F4-489A-AF5F-B2270B5D6D80}|BWA_PWA_Example.csproj|c:\\shuja\\code examples\\blazorbyshujaudemycode\\blazor-net8\\bwa_pwa_example - withdatabase\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FCDB2ED-77F4-489A-AF5F-B2270B5D6D80}|BWA_PWA_Example.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FCDB2ED-77F4-489A-AF5F-B2270B5D6D80}|BWA_PWA_Example.csproj|c:\\shuja\\code examples\\blazorbyshujaudemycode\\blazor-net8\\bwa_pwa_example - withdatabase\\models\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FCDB2ED-77F4-489A-AF5F-B2270B5D6D80}|BWA_PWA_Example.csproj|solutionrelative:models\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FCDB2ED-77F4-489A-AF5F-B2270B5D6D80}|BWA_PWA_Example.csproj|c:\\shuja\\code examples\\blazorbyshujaudemycode\\blazor-net8\\bwa_pwa_example - withdatabase\\wwwroot\\service-worker.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{8FCDB2ED-77F4-489A-AF5F-B2270B5D6D80}|BWA_PWA_Example.csproj|solutionrelative:wwwroot\\service-worker.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FCDB2ED-77F4-489A-AF5F-B2270B5D6D80}|BWA_PWA_Example.csproj|c:\\shuja\\code examples\\blazorbyshujaudemycode\\blazor-net8\\bwa_pwa_example - withdatabase\\wwwroot\\service-worker.published.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{8FCDB2ED-77F4-489A-AF5F-B2270B5D6D80}|BWA_PWA_Example.csproj|solutionrelative:wwwroot\\service-worker.published.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FCDB2ED-77F4-489A-AF5F-B2270B5D6D80}|BWA_PWA_Example.csproj|c:\\shuja\\code examples\\blazorbyshujaudemycode\\blazor-net8\\bwa_pwa_example - withdatabase\\pages\\noteswithlocalstorage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8FCDB2ED-77F4-489A-AF5F-B2270B5D6D80}|BWA_PWA_Example.csproj|solutionrelative:pages\\noteswithlocalstorage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FCDB2ED-77F4-489A-AF5F-B2270B5D6D80}|BWA_PWA_Example.csproj|c:\\shuja\\code examples\\blazorbyshujaudemycode\\blazor-net8\\bwa_pwa_example - withdatabase\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8FCDB2ED-77F4-489A-AF5F-B2270B5D6D80}|BWA_PWA_Example.csproj|solutionrelative:wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FCDB2ED-77F4-489A-AF5F-B2270B5D6D80}|BWA_PWA_Example.csproj|c:\\shuja\\code examples\\blazorbyshujaudemycode\\blazor-net8\\bwa_pwa_example - withdatabase\\pages\\notes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8FCDB2ED-77F4-489A-AF5F-B2270B5D6D80}|BWA_PWA_Example.csproj|solutionrelative:pages\\notes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FCDB2ED-77F4-489A-AF5F-B2270B5D6D80}|BWA_PWA_Example.csproj|c:\\shuja\\code examples\\blazorbyshujaudemycode\\blazor-net8\\bwa_pwa_example - withdatabase\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8FCDB2ED-77F4-489A-AF5F-B2270B5D6D80}|BWA_PWA_Example.csproj|solutionrelative:layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FCDB2ED-77F4-489A-AF5F-B2270B5D6D80}|BWA_PWA_Example.csproj|c:\\shuja\\code examples\\blazorbyshujaudemycode\\blazor-net8\\bwa_pwa_example - withdatabase\\bwa_pwa_example.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8FCDB2ED-77F4-489A-AF5F-B2270B5D6D80}|BWA_PWA_Example.csproj|solutionrelative:bwa_pwa_example.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NotesWithDB.razor",
+              "DocumentMoniker": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BWA_PWA_Example - WithDatabase\\Pages\\NotesWithDB.razor",
+              "RelativeDocumentMoniker": "Pages\\NotesWithDB.razor",
+              "ToolTip": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BWA_PWA_Example - WithDatabase\\Pages\\NotesWithDB.razor",
+              "RelativeToolTip": "Pages\\NotesWithDB.razor",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAGYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-27T11:06:55.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BWA_PWA_Example - WithDatabase\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BWA_PWA_Example - WithDatabase\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA0wBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T11:04:11.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Note.cs",
+              "DocumentMoniker": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BWA_PWA_Example - WithDatabase\\Models\\Note.cs",
+              "RelativeDocumentMoniker": "Models\\Note.cs",
+              "ToolTip": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BWA_PWA_Example - WithDatabase\\Models\\Note.cs",
+              "RelativeToolTip": "Models\\Note.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T10:59:36.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NoteRepository.cs",
+              "DocumentMoniker": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BWA_PWA_Example - WithDatabase\\Models\\Repositories\\NoteRepository.cs",
+              "RelativeDocumentMoniker": "Models\\Repositories\\NoteRepository.cs",
+              "ToolTip": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BWA_PWA_Example - WithDatabase\\Models\\Repositories\\NoteRepository.cs",
+              "RelativeToolTip": "Models\\Repositories\\NoteRepository.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAuwCAAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T10:58:08.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NotesWithLocalStorage.razor",
+              "DocumentMoniker": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BWA_PWA_Example - WithDatabase\\Pages\\NotesWithLocalStorage.razor",
+              "RelativeDocumentMoniker": "Pages\\NotesWithLocalStorage.razor",
+              "ToolTip": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BWA_PWA_Example - WithDatabase\\Pages\\NotesWithLocalStorage.razor",
+              "RelativeToolTip": "Pages\\NotesWithLocalStorage.razor",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-26T12:16:17.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "localStorage.js",
+              "DocumentMoniker": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BWA_PWA_Example - WithDatabase\\wwwroot\\js\\localStorage.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\localStorage.js",
+              "ToolTip": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BWA_PWA_Example - WithDatabase\\wwwroot\\js\\localStorage.js",
+              "RelativeToolTip": "wwwroot\\js\\localStorage.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-26T12:15:29.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Notes.razor",
+              "DocumentMoniker": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BWA_PWA_Example - WithDatabase\\Pages\\Notes.razor",
+              "RelativeDocumentMoniker": "Pages\\Notes.razor",
+              "ToolTip": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BWA_PWA_Example - WithDatabase\\Pages\\Notes.razor",
+              "RelativeToolTip": "Pages\\Notes.razor",
+              "ViewState": "AgIAABYAAAAAAAAAAAAYwBoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-26T10:57:09.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "service-worker.published.js",
+              "DocumentMoniker": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BWA_PWA_Example - WithDatabase\\wwwroot\\service-worker.published.js",
+              "RelativeDocumentMoniker": "wwwroot\\service-worker.published.js",
+              "ToolTip": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BWA_PWA_Example - WithDatabase\\wwwroot\\service-worker.published.js",
+              "RelativeToolTip": "wwwroot\\service-worker.published.js",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-26T10:08:49.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "service-worker.js",
+              "DocumentMoniker": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BWA_PWA_Example - WithDatabase\\wwwroot\\service-worker.js",
+              "RelativeDocumentMoniker": "wwwroot\\service-worker.js",
+              "ToolTip": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BWA_PWA_Example - WithDatabase\\wwwroot\\service-worker.js",
+              "RelativeToolTip": "wwwroot\\service-worker.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-26T09:06:30.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BWA_PWA_Example - WithDatabase\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BWA_PWA_Example - WithDatabase\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "Layout\\NavMenu.razor",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowCEAAABrAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-26T12:09:17.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BWA_PWA_Example.csproj",
+              "DocumentMoniker": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BWA_PWA_Example - WithDatabase\\BWA_PWA_Example.csproj",
+              "RelativeDocumentMoniker": "BWA_PWA_Example.csproj",
+              "ToolTip": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BWA_PWA_Example - WithDatabase\\BWA_PWA_Example.csproj",
+              "RelativeToolTip": "BWA_PWA_Example.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBmwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-26T09:25:03.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BWA_PWA_Example - WithDatabase\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "wwwroot\\index.html",
+              "ToolTip": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\blazor-net8\\BWA_PWA_Example - WithDatabase\\wwwroot\\index.html",
+              "RelativeToolTip": "wwwroot\\index.html",
+              "ViewState": "AgIAABcAAAAAAAAAAABOwCAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-26T09:22:45.867Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 366,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

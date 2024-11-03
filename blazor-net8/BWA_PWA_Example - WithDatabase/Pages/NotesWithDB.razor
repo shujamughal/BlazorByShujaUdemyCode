@@ -1,0 +1,105 @@
+﻿@page "/notes3"
+@using System.Text.Json
+@using BWA_PWA_Example.Models
+@using BWA_PWA_Example.Models.Repositories
+@inject IJSRuntime JSRuntime
+@inject NoteRepository NoteRepository
+
+<h3>Notes</h3>
+
+<input @bind="newNote" placeholder="Enter a new note" />
+<button @onclick="AddNote">Add Note</button>
+
+<ul>
+    @foreach (var note in notes)
+    {
+        <li>@note.Content</li>
+    }
+</ul>
+
+@code {
+    private List<Note> notes = new List<Note>();
+    private string newNote;
+
+    protected override async Task OnInitializedAsync()
+    {
+        // Load notes from local storage initially
+        await LoadNotesFromLocalStorage();
+
+        // Check if we are online
+        if (await IsOnlineAsync())
+        {
+            // Load notes from database
+            await LoadNotesFromDatabase();
+        }
+
+        // Initialize online/offline listeners
+        await JSRuntime.InvokeVoidAsync("localStorageHelper.onOnline", DotNetObjectReference.Create(this));
+        await JSRuntime.InvokeVoidAsync("localStorageHelper.onOffline");
+    }
+
+    private async Task LoadNotesFromLocalStorage()
+    {
+        var savedNotesJson = await JSRuntime.InvokeAsync<string>("localStorageHelper.loadNotes");
+        if (!string.IsNullOrEmpty(savedNotesJson))
+        {
+            var savedNotes = JsonSerializer.Deserialize<string[]>(savedNotesJson);
+            notes = savedNotes?.Select(n => new Note { Content = n }).ToList() ?? new List<Note>();
+        }
+    }
+
+    private async Task LoadNotesFromDatabase()
+    {
+        notes = (await NoteRepository.GetAllNotesAsync()).ToList();
+    }
+
+    private async Task SaveNotesToLocalStorage()
+    {
+        await JSRuntime.InvokeVoidAsync("localStorageHelper.saveNotes", JsonSerializer.Serialize(notes.Select(n => n.Content).ToArray()));
+    }
+
+    private async Task AddNote()
+    {
+        if (!string.IsNullOrWhiteSpace(newNote))
+        {
+            var note = new Note { Content = newNote };
+            notes.Add(note);
+            await SaveNotesToLocalStorage(); // Save to local storage
+
+            if (await IsOnlineAsync())
+            {
+                await NoteRepository.AddNoteAsync(note); // Save to database if online
+            }
+
+            newNote = string.Empty; // Clear the input
+        }
+    }
+
+    public async Task SyncNotes()
+    {
+        // Check if we are online
+        if (await IsOnlineAsync())
+        {
+            var savedNotesJson = await JSRuntime.InvokeAsync<string>("localStorageHelper.loadNotes");
+            var savedNotes = JsonSerializer.Deserialize<string[]>(savedNotesJson);
+
+            if (savedNotes != null)
+            {
+                foreach (var noteContent in savedNotes)
+                {
+                    var note = new Note { Content = noteContent };
+                    await NoteRepository.AddNoteAsync(note);
+                }
+
+                // Clear local storage after syncing
+                await JSRuntime.InvokeVoidAsync("localStorage.removeItem", "notes");
+            }
+        }
+    }
+
+    private async Task<bool> IsOnlineAsync()
+    {
+        return await JSRuntime.InvokeAsync<bool>("checkOnlineStatus");
+    }
+
+}

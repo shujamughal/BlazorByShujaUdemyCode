@@ -1,0 +1,66 @@
+﻿@page "/notes2"
+@using System.Text.Json
+@inject IJSRuntime JSRuntime
+
+<h3>Notes</h3>
+
+<input @bind="newNote" placeholder="Enter a new note" />
+<button @onclick="AddNote">Add Note</button>
+
+<ul>
+    @foreach (var note in notes)
+    {
+        <li>@note</li>
+    }
+</ul>
+
+@code {
+    private List<string> notes = new List<string>();
+    private string newNote;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadNotes();
+    }
+
+    private async Task LoadNotes()
+    {
+        try
+        {
+            // Call the JavaScript function to load notes
+            var savedNotesJson = await JSRuntime.InvokeAsync<string>("localStorageHelper.loadNotes");
+
+            // Deserialize into string array
+            if (!string.IsNullOrEmpty(savedNotesJson))
+            {
+                notes = JsonSerializer.Deserialize<string[]>(savedNotesJson).ToList();
+            }
+        }
+        catch (JsonException ex)
+        {
+            Console.WriteLine($"Error loading notes: {ex.Message}");
+            notes = new List<string>(); // Reset to an empty list on error
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Unexpected error: {ex.Message}");
+            notes = new List<string>();
+        }
+    }
+
+    private async Task SaveNotes()
+    {
+        // Call the JavaScript function to save notes
+        await JSRuntime.InvokeVoidAsync("localStorageHelper.saveNotes", JsonSerializer.Serialize(notes.ToArray()));
+    }
+
+    private async Task AddNote()
+    {
+        if (!string.IsNullOrWhiteSpace(newNote))
+        {
+            notes.Add(newNote);
+            await SaveNotes(); // Save notes after adding
+            newNote = string.Empty; // Clear the input
+        }
+    }
+}
