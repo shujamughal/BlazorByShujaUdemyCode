@@ -1,0 +1,16 @@
+﻿@page "/pc"
+<h3>ParentComponent</h3>
+
+<h1>@ParentProperty</h1>
+<ChildComponent @bind-ChildProperty="@ParentProperty"
+@bind-ChildProperty:event="myec"></ChildComponent>
+
+<button @onclick="ChangeValue">Parent Value Change</button>
+@code {
+    public string ParentProperty { get; set; } = "default parent text";
+
+    void ChangeValue() {
+
+        ParentProperty = "A new Text";
+    }
+}

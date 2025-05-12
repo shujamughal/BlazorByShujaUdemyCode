@@ -1,0 +1,19 @@
+﻿@page "/binder"
+<h3>BindingExample</h3>
+
+<h1>@myData</h1>
+<h2>@isChecked</h2>
+<button @onclick="ChangeValue">Change the value</button>
+<input type="text" @bind="@myData" @bind:event="oninput" />
+<input type="checkbox" @bind="@isChecked"  />
+@code {
+
+    //source
+    string myData = "Some Data";
+    bool isChecked = true;
+    void ChangeValue()
+    {
+        myData = "This is text changed";
+        isChecked = !isChecked;
+    }
+}

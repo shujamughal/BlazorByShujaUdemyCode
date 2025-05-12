@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BlazorCascadingParameterExample")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+de58a3b0bfe016ce3e019744c37f594f5847ae3d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bb101c87d53c6d5fb5911ed7ef9d577dd04656f1")]
 [assembly: System.Reflection.AssemblyProductAttribute("BlazorCascadingParameterExample")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BlazorCascadingParameterExample")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

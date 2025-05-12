@@ -1,0 +1,18 @@
+﻿<h3>ChildComponent</h3>
+
+<h1> @ChildProperty </h1>
+<button @onclick=ChildValueChange >Change Child Value</button>
+@code {
+    [Parameter]
+    public string ChildProperty { get; set; } = "Default child text";
+    //1
+    [Parameter]
+    public EventCallback<string> myec { get; set; }
+    
+    void ChildValueChange() {
+
+        ChildProperty = "a next child text";
+       //2
+        myec.InvokeAsync(ChildProperty);
+    }
+}

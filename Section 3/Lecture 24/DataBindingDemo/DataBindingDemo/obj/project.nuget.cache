@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "oIN9n+h0Wn8=",
+  "success": false,
+  "projectFilePath": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\Section 3\\Lecture 24\\DataBindingDemo\\DataBindingDemo\\DataBindingDemo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\shuja\\.nuget\\packages\\microsoft.netcore.app.runtime.browser-wasm\\5.0.17\\microsoft.netcore.app.runtime.browser-wasm.5.0.17.nupkg.sha512",
+    "C:\\Users\\shuja\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\shuja\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\shuja\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.\r\n  An error occurred while sending the request.\r\n  The underlying connection was closed: An unexpected error occurred on a send.\r\n  Authentication failed because the remote party has closed the transport stream.",
+      "libraryId": "Microsoft.NET.ILLink.Analyzers"
+    }
+  ]
+}

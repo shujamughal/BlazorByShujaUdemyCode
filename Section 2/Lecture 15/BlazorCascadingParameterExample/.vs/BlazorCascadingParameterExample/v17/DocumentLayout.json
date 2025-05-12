@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\Section 2\\Lecture 15\\BlazorCascadingParameterExample\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{97BD5819-51D4-4A56-B4D5-BEDB35EA893A}|BlazorCascadingParameterExample\\BlazorCascadingParameterExample.csproj|c:\\shuja\\code examples\\blazorbyshujaudemycode\\section 2\\lecture 15\\blazorcascadingparameterexample\\blazorcascadingparameterexample\\controls\\grandchildcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{97BD5819-51D4-4A56-B4D5-BEDB35EA893A}|BlazorCascadingParameterExample\\BlazorCascadingParameterExample.csproj|solutionrelative:blazorcascadingparameterexample\\controls\\grandchildcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{97BD5819-51D4-4A56-B4D5-BEDB35EA893A}|BlazorCascadingParameterExample\\BlazorCascadingParameterExample.csproj|c:\\shuja\\code examples\\blazorbyshujaudemycode\\section 2\\lecture 15\\blazorcascadingparameterexample\\blazorcascadingparameterexample\\pages\\parentcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{97BD5819-51D4-4A56-B4D5-BEDB35EA893A}|BlazorCascadingParameterExample\\BlazorCascadingParameterExample.csproj|solutionrelative:blazorcascadingparameterexample\\pages\\parentcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97BD5819-51D4-4A56-B4D5-BEDB35EA893A}|BlazorCascadingParameterExample\\BlazorCascadingParameterExample.csproj|c:\\shuja\\code examples\\blazorbyshujaudemycode\\section 2\\lecture 15\\blazorcascadingparameterexample\\blazorcascadingparameterexample\\controls\\grandchildcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97BD5819-51D4-4A56-B4D5-BEDB35EA893A}|BlazorCascadingParameterExample\\BlazorCascadingParameterExample.csproj|solutionrelative:blazorcascadingparameterexample\\controls\\grandchildcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{97BD5819-51D4-4A56-B4D5-BEDB35EA893A}|BlazorCascadingParameterExample\\BlazorCascadingParameterExample.csproj|c:\\shuja\\code examples\\blazorbyshujaudemycode\\section 2\\lecture 15\\blazorcascadingparameterexample\\blazorcascadingparameterexample\\controls\\childcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,26 +30,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ParentComponent.razor",
               "DocumentMoniker": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\Section 2\\Lecture 15\\BlazorCascadingParameterExample\\BlazorCascadingParameterExample\\Pages\\ParentComponent.razor",
               "RelativeDocumentMoniker": "BlazorCascadingParameterExample\\Pages\\ParentComponent.razor",
               "ToolTip": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\Section 2\\Lecture 15\\BlazorCascadingParameterExample\\BlazorCascadingParameterExample\\Pages\\ParentComponent.razor",
               "RelativeToolTip": "BlazorCascadingParameterExample\\Pages\\ParentComponent.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAUwAMAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-02T05:53:41.134Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "GrandChildComponent.razor",
               "DocumentMoniker": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\Section 2\\Lecture 15\\BlazorCascadingParameterExample\\BlazorCascadingParameterExample\\Controls\\GrandChildComponent.razor",
               "RelativeDocumentMoniker": "BlazorCascadingParameterExample\\Controls\\GrandChildComponent.razor",
               "ToolTip": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\Section 2\\Lecture 15\\BlazorCascadingParameterExample\\BlazorCascadingParameterExample\\Controls\\GrandChildComponent.razor",
               "RelativeToolTip": "BlazorCascadingParameterExample\\Controls\\GrandChildComponent.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-02T05:53:31.368Z",
               "EditorCaption": ""
@@ -60,9 +60,9 @@
               "Title": "ChildComponent.razor",
               "DocumentMoniker": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\Section 2\\Lecture 15\\BlazorCascadingParameterExample\\BlazorCascadingParameterExample\\Controls\\ChildComponent.razor",
               "RelativeDocumentMoniker": "BlazorCascadingParameterExample\\Controls\\ChildComponent.razor",
-              "ToolTip": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\Section 2\\Lecture 15\\BlazorCascadingParameterExample\\BlazorCascadingParameterExample\\Controls\\ChildComponent.razor",
-              "RelativeToolTip": "BlazorCascadingParameterExample\\Controls\\ChildComponent.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Shuja\\Code Examples\\BlazorByShujaUdemyCode\\Section 2\\Lecture 15\\BlazorCascadingParameterExample\\BlazorCascadingParameterExample\\Controls\\ChildComponent.razor*",
+              "RelativeToolTip": "BlazorCascadingParameterExample\\Controls\\ChildComponent.razor*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-02T05:53:25.894Z",
               "EditorCaption": ""

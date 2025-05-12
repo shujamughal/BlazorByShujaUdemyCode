@@ -81,7 +81,15 @@ using BlazorCascadingParameterExample.Controls
 #nullable disable
     ;
     #nullable restore
-    public partial class MainLayout : LayoutComponentBase
+    public partial class MainLayout : 
+#nullable restore
+#line 1 "C:\Shuja\Code Examples\BlazorByShujaUdemyCode\Section 2\Lecture 15\BlazorCascadingParameterExample\BlazorCascadingParameterExample\Shared\MainLayout.razor"
+          LayoutComponentBase
+
+#line default
+#line hidden
+#nullable disable
+
     #nullable disable
     {
         #pragma warning disable 1998

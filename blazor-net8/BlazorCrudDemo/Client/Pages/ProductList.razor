@@ -1,0 +1,75 @@
+﻿@page "/products"
+@using Client.Models
+@using Client.Services
+@inject ProductService ProductService
+
+<h3>Product List</h3>
+
+<button class="btn btn-primary" @onclick="NewProduct">New Product</button>
+
+@if (editing)
+{
+    <EditForm Model="currentProduct" OnValidSubmit="SaveProduct">
+        <InputText @bind-Value="currentProduct.Name" class="form-control" placeholder="Name" />
+        <InputNumber @bind-Value="currentProduct.Price" class="form-control" placeholder="Price" />
+        <button type="submit" class="btn btn-success mt-2">Save</button>
+    </EditForm>
+}
+
+<table class="table table-striped mt-3">
+    <thead>
+        <tr><th>ID</th><th>Name</th><th>Price</th><th>Actions</th></tr>
+    </thead>
+    <tbody>
+        @foreach (var p in products)
+        {
+            <tr>
+                <td>@p.Id</td>
+                <td>@p.Name</td>
+                <td>@p.Price</td>
+                <td>
+                    <button class="btn btn-warning btn-sm" @onclick="@(() => EditProduct(p))">Edit</button>
+                    <button class="btn btn-danger btn-sm" @onclick="@(() => DeleteProduct(p.Id))">Delete</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@code {
+    private List<Product> products = [];
+    private Product currentProduct = new();
+    private bool editing = false;
+
+    protected override async Task OnInitializedAsync() =>
+        products = await ProductService.GetProductsAsync();
+
+    void NewProduct()
+    {
+        currentProduct = new();
+        editing = true;
+    }
+
+    void EditProduct(Product p)
+    {
+        currentProduct = new Product { Id = p.Id, Name = p.Name, Price = p.Price };
+        editing = true;
+    }
+
+    async Task SaveProduct()
+    {
+        if (currentProduct.Id == 0)
+            await ProductService.CreateProductAsync(currentProduct);
+        else
+            await ProductService.UpdateProductAsync(currentProduct);
+
+        products = await ProductService.GetProductsAsync();
+        editing = false;
+    }
+
+    async Task DeleteProduct(int id)
+    {
+        await ProductService.DeleteProductAsync(id);
+        products = await ProductService.GetProductsAsync();
+    }
+}
